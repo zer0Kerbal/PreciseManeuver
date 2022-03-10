@@ -1,4 +1,4 @@
-KSPPreciseManeuver
+PreciseManeuver
 ===============
 
 PreciseManeuve plugin for Kerbal Space Program
