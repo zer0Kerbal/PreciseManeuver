@@ -3,8 +3,7 @@
     "ignoredFiles": [
         "GameData/*",
         "docs/LegalMumboJumbo/*",
-        "GameData/KerbthulhuKineticsProgram/MoarKerbals/*",
-        "GameData/KerbthulhuKineticsProgram/MoarKerbals/Textures/*",
+        "GameData/PreciseManeuver/*",
         "source/*",
         "**/Assets/**",
         "**/Flags/**",
@@ -13,7 +12,8 @@
         "**/UI/**",
         "**/PluginData/**",
         "**/Icons/**",
-        "**/@thumbs/**"
+        "**/@thumbs/**",
+        "**/Prefabs/**",
     ],
     "aggressiveCompression": "false",
     "compressWiki": "true",
