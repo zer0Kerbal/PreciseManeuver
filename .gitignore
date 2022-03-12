@@ -1,4 +1,9 @@
-﻿# .gitignore v2.0.2.0
+﻿# .gitignore v2.0.3.0
+# created:
+# updated: 22 Mar 2022
+# by zer0kerbal
+
+# 2.0.3.0 - add *.2do
 
 # Prerequisites
 *.d
