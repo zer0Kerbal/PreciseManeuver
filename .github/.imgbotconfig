@@ -13,7 +13,7 @@
         "**/PluginData/**",
         "**/Icons/**",
         "**/@thumbs/**",
-        "**/Prefabs/**",
+        "**/Prefabs/**"
     ],
     "aggressiveCompression": "false",
     "compressWiki": "true",
