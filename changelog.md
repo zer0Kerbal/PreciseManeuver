@@ -1,0 +1,96 @@
+2.4.4, 2019-10-20
+- KSP 1.8
+- Update for newer unity engine
+
+2.4.3, 2019-10-12
+- KSP 1.7
+- Small correction to maneuver select logic
+- Remove compatibility checker. It's more annoyance than help.
+
+2.4.2, 2019-03-23
+- KSP 1.6
+- German translation
+- Fixed menu button in scenarios
+- Better parameters for KAC
+
+2.4.1, 2018-03-07
+- Recompile for KSP 1.4
+
+2.3.2, 2018-01-01
+- Small fixes
+- Use a library function for time display
+
+2.3.1, 2017-06-12
+- Spanish localization
+- Fix the incorrect scale behaviour
+- Absolute values in orbit info fixed
+- +/- orbit buttons are now repeatable
+
+2.3.0, 2017-06-04
+- KSP 1.3.0
+- Localization support
+- Tooltips added
+- All text is replaced with TMPros
+- And all inputs are also replaced with TMPros
+- And even the text in dropdowns was replaced with TMPros
+- Seriously, I can't beleive how many hidden places there are with the fucking text components
+- Did I mention I replaced the text with TMPros? Because I did
+
+2.2.5, 2017-02-19
+- Fix dropdown blocker which caused the UI block in some cases
+
+2.2.4, 2017-02-03
+- Reworked AN/DN calculation
+
+2.2.3, 2017-01-30
+- Menuever copy format now is the same as in TWP
+- Several minor bugfixes
+
+2.2.2, 2016-12-27
+- Calculate the correct ej. angle when pasting from TWP
+
+2.2.1, 2016-12-22
+- KSP 1.2.2
+- Orbit tools redesigned (icons instead of text)
+- copy/paste for maneuvers (compatible with TWP)
+
+2.2-pre, 2016-09-29
+- Works with KSP 1.2
+- New +/- orbit buttons
+- New AP/PE buttons for gizmo
+- Axis input fields are now editable
+- Clickthrough prevention
+
+2.1, 2016-07-14
+- Removed the dead zone in gizmo tool
+- Adjusted the sensitivity of the gizmo
+- Exapanded "undo" to save more than one change
+- Changes from gui buttons and hotkeys now also undoable
+- Fixed KAC integration
+- Fixed the weird toolbar behaviour in some cases
+- Eye candy for main window
+- Added the ability to put the main window into background
+- Honor the F2 (hide the UI) hotkey
+
+2.0, 2016-05-06
+- Deprecating IMGUI, new prefab-based GUI
+- Scalable GUI
+- Modular structure for GUI
+- New preset module for saving and loading maneuvers
+- New gizmo module that resembles the stock gizmo
+
+1.1.1, 2016-01-05
+- Check orbit parameters for sanity before use
+- Change GUID to unique one
+- Small GUI fixes
+
+1.1, 2015-12-27
+- New tools: circularize and orbit up/down
+- Lots of new hotkeys
+- Ability to unset hotkeys
+- Little tweaks to make GUI more responsive
+
+1.0.0, 2015-12-13
+- Let's start a brand new changelog here, so now this is an initial release
+- The histrory of the PreciseNode plugin can be found here:
+  https://github.com/blizzy78/ksp-precisenode/blob/master/PreciseNode/CHANGES.txt
