@@ -5,8 +5,8 @@
 	"CHANGE_LOG_URL" : "https://raw.githubusercontent.com/zer0Kerbal/PreciseManeuver/master/changelog.md",
     "GITHUB": {
         "USERNAME"          : "zer0Kerbal",
-        "REPOSITORY"        : "PreciseManeuver"
-		"ALLOW_PRE_RELEASE" : false
+        "REPOSITORY"        : "PreciseManeuver",
+		"ALLOW_PRE_RELEASE" : "false"
      },
     "VERSION" :
     {
