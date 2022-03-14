@@ -1,0 +1,260 @@
+# settings.yml 1.0.9.0
+# CC BY-NC-ND 3.0 Unported
+# zer0Kerbal
+# created 01 Jan 2022
+# updated 26 Feb 2022
+# These settings are synced to GitHub by https://probot.github.io/apps/settings/
+
+repository:
+  # See https://docs.github.com/en/rest/reference/repos#update-a-repository for all available settings.
+
+  # The name of the repository. Changing this will rename the repository
+  name: PreciseManeuver
+
+  # A short description of the repository that will show up on GitHub
+  description: Precise Maneuver plugin that provides a window for more precise maneuver node editing for Kerbal Space Program (KSP).
+
+  # A URL with more information about the repository
+  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/207261-*
+  
+  # A comma-separated list of topics to set on the repository
+  topics: precise,window,maneuver,node,gizmo,kerbal,kerbalspaceprogram,ksp,ksp-mods,ksp-parts,kerbal-space,kerbal-space-program,kerbal-mods,zedk,morse
+  
+  # Either `true` to make the repository private, or `false` to make it public.
+  private: false
+
+  # Either `true` to enable issues for this repository, `false` to disable them.
+  has_issues: true
+
+  # Either `true` to enable projects for this repository, or `false` to disable them.
+  # If projects are disabled for the organization, passing `true` will cause an API error.
+  has_projects: true
+
+  # Either `true` to enable the wiki for this repository, `false` to disable it.
+  has_wiki: true
+
+  # Either `true` to enable downloads for this repository, `false` to disable them.
+  has_downloads: true
+
+  # Updates the default branch for this repository.
+  default_branch: master
+
+  # Either `true` to allow squash-merging pull requests, or `false` to prevent
+  # squash-merging.
+  allow_squash_merge: true
+
+  # Either `true` to allow merging pull requests with a merge commit, or `false`
+  # to prevent merging pull requests with merge commits.
+  allow_merge_commit: true
+
+  # Either `true` to allow rebase-merging pull requests, or `false` to prevent
+  # rebase-merging.
+  allow_rebase_merge: true
+
+  # Either `true` to enable automatic deletion of branches on merge, or `false` to disable
+  delete_branch_on_merge: true
+
+# Labels: define labels for Issues and Pull Requests
+labels:
+  - name: bug 🐛 
+    color: CC0000
+    description: An issue with the system. Something isn't working... KSC... we have an error code
+
+  - name: "help wanted"
+    color: 008672
+    description: "assistance, help, input solicited"
+
+  - name: duplicate
+    color: FFFFF0
+    description: "duplicated issue - it happens"
+
+  - name: "semantic: adoption"
+    # include the old name to rename an existing label
+    oldname: adoption
+    color: BADA55
+    description: relating to adoption
+
+  - name: "semantic: release"
+    color: 00FF00
+    description: release
+
+  - name: "semantic: prerelease"
+    color: 00FF00
+    description: prerelase
+
+  - name: "semantic: beta"
+    color: 00FF00
+    description: beta
+
+  - name: "semantic: alpha"
+    color: 00FF00
+    description: alpha
+
+  - name: "issue: text"
+    color: FBCA04
+    description: issue type
+
+  - name: "issue: compatibility/patch"
+    color: CC0DEB
+    description: issue type
+
+  - name: "issue: model"
+    color: FBCA04
+    description: issue type
+
+  - name: "issue: texture"
+    color: FBCA04
+    description: issue type
+
+  - name: "issue: sound"
+    color: FBCA04
+    description: issue type
+
+  - name: "issue: config"
+    color: FBCA04
+    description: issue type
+
+  - name: "issue: code"
+    color: FBCA04
+    description: issue type
+
+  - name: "issue: documentation"
+    color: FBCA04
+    description: issue type
+
+  - name: "issue: relationship"
+    color: FBCA04
+    description: issue type
+
+  - name: "issue: license"
+    color: FBCA04
+    description: issue type
+
+  - name: "issue: install"
+    color: FBCA04
+    description: issue type
+
+  - name: "issue: other"
+    color: FBCA04
+    description: issue type
+
+  - name: "issue: external"
+    color: FBCA04
+    description: issue originates from external sources
+
+  - name: "type: localization"
+    oldname: localization
+    # include the old name to rename an existing label
+    color: FFFFF0
+    description: related to localization and translations
+
+  - name: "type: infrastructure"
+    color: ffdda8
+    description: improvements or additions to project infrastructure
+
+  - name: "type: automation"
+    color: fbca04
+    description: issues for automation actions
+
+  - name: "type: fix"
+    color: 91ca55
+    description: Iterations on existing features or infrastructure.
+
+  - name: "type: testing"
+    color: fbca04
+    description: Related to testing.
+
+  - name: "type: chore"
+    color: fef2c0
+    description: Converting measurements, reorganizing folder structure, and other necessary (but less impactful) tasks.
+
+  - name: "type: discussion"
+    oldname: discussion
+    color: d4c5f9
+    description: Questions, queries, posers, proposals and info that requires discussion.
+
+  - name: "type: docs"
+    color: fef2c0
+    description: Related to documentation and information.
+
+  - name: "type: enhancement"
+    oldname: "Mod-enhancement"
+    # include the old name to rename an existing label
+    color: 5ebeff
+    description: Requested functionality, features, pages, workflows, endpoints, etc.
+
+  - name: "type: feature"
+    oldname: "Mod-feature"
+    # include the old name to rename an existing label
+    description: Brand new functionality, features, pages, workflows, endpoints, etc.
+
+  - name: "type: request"
+    oldname: "Mod-request"
+    # include the old name to rename an existing label
+    color: 5ebeff
+    description: Requested functionality, features, pages, workflows, endpoints, etc.
+
+  - name: "type: archive"
+    color: FFFFF0
+    description: archive
+
+  - name: "type: upstream"
+    oldname: "upstream"
+    # include the old name to rename an existing label
+    color: FFFFF0
+    description: upstream or side stream
+
+  - name: "type: pull request"
+    oldname: "pull request"
+    color: FFFFF0
+    description: upstream or side stream
+
+  - name: "work: choatic"
+    color: FBCA04
+    description: The situation is chaotic, novel practices used.
+
+  - name: "work: complex"
+    color: d4c5f9
+    description: The situation is complex, emergent practices used.
+
+  - name: "work: complicated"
+    color: ffb8c6
+    description: The situation is complicated, good practices used.
+
+  - name: "work: obvious"
+    color: 91ca55
+    description: The situation is obvious, best practices used.
+
+  - name: "state: approved"
+    color: 91ca55
+    description: Approved to proceed.
+
+  - name: "state: blocked"
+    color: d73a4a
+    description: Something is blocking action.
+
+  - name: "state: pending"
+    color: fbca04
+    description: Taking action, but need a few things to happen first. A feature that needs dependencies merged, or a bug that needs further data.
+
+  - name: "state: inactive"
+    color: e6e6e6
+    description: No action needed or possible. The issue is either fixed, addressed better by other issues, or just out of product scope.
+
+  - name: "state: planning"
+    color: FFFF00
+    description:
+
+  - name: "state: won't fix"
+    color: e6e6e6
+    description: No action will be taken at this time
+
+# Milestones: define milestones for Issues and Pull Requests
+milestones:
+  - title: 2.4.99.0-adoption
+    description: progress toward 2.4.99.0-adoption and release
+    state: open
+
+  - title: Localization - Master
+    description: progress toward total localization
+    state: open
