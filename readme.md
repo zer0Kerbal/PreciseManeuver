@@ -134,7 +134,7 @@ or [![CKAN][CKAN:img]][CKAN:url] [^3]
 > License: [![License][LIC:org:shd]][LIC:org:url]
 
 <!-- mod links -->
-[MOD:forum]: https://forum.kerbalspaceprogram.com/index.php?/topic/128303-* "Precise Maneuver Forum Thread"
+[MOD:forum]: https://forum.kerbalspaceprogram.com/index.php?/topic/207261-* "Precise Maneuver Forum Thread"
 [MOD:chlog]: https://raw.githubusercontent.com/zer0Kerbal/PreciseManeuver/master/changelog.md  "Changelog"
 [MOD:contr]: https://github.com/zer0Kerbal/.github/blob/master/.github/CONTRIBUTING.md "Contributing"
 [MOD:discu]: https://github.com/zer0Kerbal/PreciseManeuver/discussions "Discussions"
