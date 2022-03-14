@@ -15,7 +15,7 @@ updated: 05 Mar 2022 -->
 
 # Precise Maneuver (KPM)
 
-PreciseManeuve plugin for Kerbal Space Program
+Precise Maneuver plugin for Kerbal Space Program
 
 Provides a window for more precise maneuver node editing.
 
