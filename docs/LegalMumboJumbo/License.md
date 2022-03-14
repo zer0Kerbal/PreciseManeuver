@@ -12,8 +12,8 @@ updated: 20 Feb 2022 -->
 
 ## BSD 2-Clause License
 
-Copyright © (c) 2017,2019 radistmorse
-Copyright © (c) 2021,2022 zer0Kerbal (zer0Kerbal at hotmail dot com)
+Copyright © (c) 2017,2019 radistmorse  
+Copyright © (c) 2021,2022 zer0Kerbal  
 
 ### All rights reserved.
 
