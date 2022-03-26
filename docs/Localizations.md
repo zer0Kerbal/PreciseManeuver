@@ -17,7 +17,7 @@ updated: 06 Mar 2022 -->
 
 has been translated into the following languages:
 
-* !English][EN] American English <us-en.cfg>  
+* ![English][EN] American English <us-en.cfg>  
 * ![Deutsch][DE] German (Deutsch)  <de.cfg>  
 * ![Español][ES] Spanish (Español) <es-es.cfg>  
 * ![日本語][JA] Japanese(日本語) <ja.cfg>  
