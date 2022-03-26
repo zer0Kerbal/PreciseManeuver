@@ -30,6 +30,10 @@ Provides a window for more precise maneuver node editing.
 
 
 
+### KSP Mod Showcase - Precise Node
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=IcTQ4YwxLGc"  target="_blank">
+<img src="http://img.youtube.com/vi/IcTQ4YwxLGc/mqdefault.jpg" alt="Watch the video" width="240"  height="180" border="10" /></a>
 
 ### Usage preamble by [Morse][morse]
 
