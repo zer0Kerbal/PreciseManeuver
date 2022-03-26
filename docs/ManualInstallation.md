@@ -1,6 +1,9 @@
 ---
 permalink: /ManualInstallation.html
 title: Manual Installation (no warranty coverage provided)
+description: hand me the hyperspanner...
+# layout: bare
+tags: installation,manual,page,kerbal,ksp,zer0Kerbal,zedK
 ---
 
 <!-- ManualInstallation.md v1.1.0.0
