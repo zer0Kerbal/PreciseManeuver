@@ -8,7 +8,100 @@
 | github     | (https://github.com/zer0Kerbal/zer0Kerbal/PreciseManeuver)       |
 | curseforge | (https://www.curseforge.com/kerbal/ksp-mods/PreciseManeuver)     |
 | spacedock  | (https://spacedock.info/mod/2998)                                |
-| ckan       | PreciseManeuver                                                  |
+| ckan       | PreciseManeuver                                                 |
+
+## 2.4.99.0-adoption `<Kerbal Floating Point Precision>` edition
+
+## adopted by zer0Kerbal
+
+* 25 Mar 2022
+* Released for KSP 1.12.3
+
+### Code
+
+* Compile
+  * .NET 4.7.2
+  * C# 10.0
+* Update
+  * [PreciseManeuver.csproj]
+  * [PreciseManeuver.Unity.csproj]
+  * [PreciseManeuver.sln]
+
+### Unity
+
+* Recompile Assets
+  * [precisemaneuverprefabs]
+  * using Unity 2019.4.18f1 LTS
+
+* create
+  * GameData/PreciseManeuver/
+    * Localization folder 📁
+      * Localization/[readme.md] v2.1.0.1
+      * Localization/[quickstart.md] v1.0.1.0
+        * create: [en-us.cfg]
+        * create [es-es.cfg]
+        * create [de-de.cfg]
+        * create [ja.cfg]
+        * create [ru.cfg]
+        * create [zn-cn.cfg]
+    * delete old [localizations.cfg]
+
+### Localization
+
+* split localization into separate languages for easier handling
+  * closes #12 - English <us-en.cfg>
+  * closes #14 - German (Deutsch) <de.cfg>
+  * closes #15 - Spanish (Español) <es-es.cfg>
+  * closes #18 - Japanese(日本語) <ja.cfg>
+  * closes #19 - Russian (Русский) <ru.cfg>
+  * closes #20 - Simplified Chinese (简体中文) <zh-cn.cfg>
+  * closes #29 - split localization into separate languages for easier handling
+  * updates #11 - Localization - Master
+
+### Create
+
+* folder structure
+  * docs/
+    * Code/
+    * LegalMumboJumbo/
+      * [License.md]
+      * [FORUM-01.png]
+  * [404.md]
+  * [Attribution.md]
+  * [BasicInstructions.md]
+  * [Localizations.md]
+  * [ManualInstallation.md]
+  * [readadme.md] v1.6.6.0
+* root/
+* _releasenotes
+  * .gitattributes
+  * .gitignore
+  * .version file
+  * changelog.md
+  * [_buildJSON] v1.3.3.6.3
+  * [_buildRelease] v1.1.3.1
+  * [_deploy] v1.1.3.2
+  * [_gitClean] v1.0.2.0
+  * [_pullIssues] v1.1.0.1
+  * [_pullReleaseNotes] v1.1.01
+  * json/[_release] v1.0.3.0
+* github/
+  * [.imgbotconfig] v2.0.0.0
+  * [_settings] v1.0.9.0
+    * workflows/
+      * [AVC-VersionFileValidator] v1.3.1
+      * [createIndexesfromMarkdown] v1.0.1.0
+      * [greetings] v1.1.0.1
+
+## Status
+
+* Issues
+  * closes #9 * 2.4.99.0 Social Media
+  * closes #8 * 2.4.99.0 Update Documentation
+  * closes #7 * 2.4.99.0 Verify Legal Mumbo Jumbo
+  * closes #6 * PreciseManeuver 2.4.99.0-adoption `<Kerbal Floating Point Precision>` edition
+
+---
 
 ## Version 2.4.4.0 - for KSP 1.12.3 [13-Mar-2022]
 
@@ -22,11 +115,15 @@
 * #20 - Simplified Chinese (简体中文) <zh-cn.cfg>
 * #29 - split localization into separate languages for easier handling
 
+---
+
 ## 2.4.4
 
 * 2019-10-20
 * KSP 1.8
 * Update for newer unity engine
+
+---
 
 ## 2.4.3
 
@@ -34,6 +131,8 @@
 * KSP 1.7
 * Small correction to maneuver select logic
 * Remove compatibility checker. It's more annoyance than help.
+
+---
 
 ## 2.4.2
 
@@ -43,16 +142,22 @@
 * Fixed menu button in scenarios
 * Better parameters for KAC
 
+---
+
 ## 2.4.1
 
 * 2018-03-07
 * Recompile for KSP 1.4
+
+---
 
 ## 2.3.2
 
 * 2018-01-01
 * Small fixes
 * Use a library function for time display
+
+---
 
 ## 2.3.1
 
@@ -61,6 +166,8 @@
 * Fix the incorrect scale behaviour
 * Absolute values in orbit info fixed
 * +/- orbit buttons are now repeatable
+
+---
 
 ## 2.3.0
 
@@ -74,15 +181,21 @@
 * Seriously, I can't beleive how many hidden places there are with the fucking text components
 * Did I mention I replaced the text with TMPros? Because I did
 
+---
+
 ## 2.2.5
 
 * 2017-02-19
 * Fix dropdown blocker which caused the UI block in some cases
 
+---
+
 ## 2.2.4
 
 * 2017-02-03
 * Reworked AN/DN calculation
+
+---
 
 ## 2.2.3
 
@@ -90,10 +203,14 @@
 * Menuever copy format now is the same as in TWP
 * Several minor bugfixes
 
+---
+
 ## 2.2.2
 
 * 2016-12-27
 * Calculate the correct ej. angle when pasting from TWP
+
+---
 
 ## 2.2.1
 
@@ -101,6 +218,8 @@
 * KSP 1.2.2
 * Orbit tools redesigned (icons instead of text)
 * copy/paste for maneuvers (compatible with TWP)
+
+---
 
 ## 2.2-pre
 
@@ -110,6 +229,8 @@
 * New AP/PE buttons for gizmo
 * Axis input fields are now editable
 * Clickthrough prevention
+
+---
 
 ## 2.1
 
@@ -124,6 +245,8 @@
 * Added the ability to put the main window into background
 * Honor the F2 (hide the UI) hotkey
 
+---
+
 ## 2.0
 
 * 2016-05-06
@@ -133,12 +256,16 @@
 * New preset module for saving and loading maneuvers
 * New gizmo module that resembles the stock gizmo
 
+---
+
 ## 1.1.1
 
 * 2016-01-05
 * Check orbit parameters for sanity before use
 * Change GUID to unique one
 * Small GUI fixes
+
+---
 
 ## 1.1
 
@@ -148,6 +275,8 @@
 * Ability to unset hotkeys
 * Little tweaks to make GUI more responsive
 
+---
+
 ## 1.0.0
 
 * 2015-12-13
@@ -155,10 +284,14 @@
 * The histrory of the PreciseNode plugin can be found here:
   https://github.com/blizzy78/ksp-precisenode/blob/master/PreciseNode/CHANGES.txt
 
+---
+
 ## 1.2.4, 2016-10-15
 
 * Updated for KSP 1.2.0.
 * Please note that the 32-bit version of KSP will no longer be supported.
+
+---
 
 ## 1.2.3, 2016-05-02
 
@@ -166,14 +299,20 @@
 * Now uses KSP-AVC for version checking. If KSP-AVC is not installed, the bundled
   MiniAVC will be used.
 
+---
+
 ## 1.2.2, 2016-04-21
 
 * Updated for KSP 1.1.0.
+
+---
 
 ## 1.2.1, 2015-11-14
 
 * Fixed a bug with loading/saving the intuitive maneuver node handles option.
 * Fixed a bug that occurred when patched conics were not yet available in career mode.
+
+---
 
 ## 1.2.0, 2015-11-10
 
@@ -185,18 +324,26 @@
 * Fixed a bug in the Kerbin/Earth time conversion.
 * Disabled KSP compatibility check for the time being.
 
+---
+
 ## 1.1.3, 2015-05-02
 
 * Fixed NullReferenceException in map mode.
 * Updated for KSP 1.0.2.
 
+---
+
 ## 1.1.2, 2014-12-16
 
 * Updated for KSP 0.90.0.
 
+---
+
 ## 1.1.1, 2014-10-09
 
 * Fixed a bug in the KSP compatibility check.
+
+---
 
 ## 1.1.0, 2014-08-02
 
@@ -206,6 +353,8 @@
 * If activated in the options, the conics window is now always displayed regardless of the
   visibility of the main window.
 
+---
+
 ## 1.0.0, 2014-07-27
 
 * In addition to the automatic update check, the plugin now also gets KSP versions
@@ -214,14 +363,20 @@
   KSP version. This saves both players' and the plugin author's time.
 * Updated for KSP 0.24.2.
 
+---
+
 ## 0.14, 2014-07-25
 
 * Updated for KSP 0.24.1.
+
+---
 
 ## 0.13, 2014-07-18
 
 * Updated for KSP 0.24.0.
 * The RP-9f Craft Locator part is now gone.
+
+---
 
 ## 0.12, 2014-06-10
 
@@ -229,11 +384,15 @@
   respectively.
 * DN/AN buttons should no longer flicker if the relative/equatorial inclination is almost zero.
 
+---
+
 ## 0.11, 2014-04-09
 
 * The button "Focus Vessel" should now work as intended.
 * Time and duration displays should now honor the Earth time/Kerbin time setting.
 * Added a button to delete the current maneuver node.
+
+---
 
 ## 0.10, 2014-04-02
 
@@ -247,6 +406,8 @@
   the editor.
 * The buttons to modify a maneuver node's time will be disabled now if they are not applicable with
   respect to the node's current time.
+
+---
 
 ## PreciseNode 0.9
 
@@ -264,6 +425,8 @@
   * If you have a target the buttons will snap to AN/DN of the target, otherwise
     they will snap to the equatorial AN/DN.
 
+---
+
 ## PreciseNode 0.8.1
 
 * Fixed node update during burn issue (editing a node without using the gizmo first).
@@ -272,9 +435,13 @@
 PreciseNode 0.8
 * Fixed null reference exception spam.
 
+---
+
 ## PreciseNode 0.7.5
 
 * Fixed erratic textbox behaviour.
+
+---
 
 ## PreciseNode 0.7
 
@@ -288,6 +455,8 @@ PreciseNode 0.8
 * Fixed some repaint bugs that may have been causing unexpected CTDs.
 * Fixed some null reference bugs through a better node updating scheme.
 
+---
+
 ## PreciseNode 0.6
 
 * Added the time to next node in the Clock window if a node is present.
@@ -299,6 +468,8 @@ PreciseNode 0.8
 * The "Editing Node" label at the top is now a button that focuses the map view
     on that particular node.
 * The Clock window will no longer stay visible when you clear the GUI via F2.
+
+---
 
 ## PreciseNode 0.5
 
@@ -318,10 +489,14 @@ PreciseNode 0.8
 * Added an optional clock window to show the current UT and human readable time.
   * If enabled the clock window will always show.
 
+---
+
 ## PreciseNode 0.4
 
 * 0.22 compile.
 * Added display for node apoapsis and periapsis, or the next encounter periapsis.
+
+---
 
 ## PreciseNode 0.3
 
@@ -329,6 +504,8 @@ PreciseNode 0.8
 * PreciseNode will now save the window positions between program executions.
 * Changed saving of config file to OnDisable, which happens when you switch flights.
 * Changed the time display to add +1 year in order to correct to Space Center time.
+
+---
 
 ## PreciseNode 0.2
 
