@@ -1,0 +1,289 @@
+<!-- readme.md v1.6.5.9
+Precise Maneuver (KPM)
+created: 01 Oct 2019
+updated: 05 Mar 2022 -->
+
+<!--this file: CC BY-ND 3.0 unported by zer0Kerbal-->
+
+<p><a
+href="https://forum.kerbalspaceprogram.com/index.php?/topic/207261-*"
+title="Precise Maneuver Forum Thread"><img
+src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/PreciseManeuver/master/json/mod.json"
+alt="PreciseManeuver" /></a> <a href="https://kerbalspaceprogram.com/"
+title="Kerbal Space Program"><img
+src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/PreciseManeuver/master/json/ksp.json&amp;logo=data:image/webp;base64,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"
+title="Kerbal Space Program" alt="KSP version" /></a> <a
+href="https://choosealicense.com/licenses/bsd-2-clause/"
+title="SimpleBSD-2-Clause"><img
+src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/PreciseManeuver/master/json/license.json"
+title="SimpleBSD-2-Clause" alt="License" /></a><br />
+<a href="https://www.curseforge.com/kerbal/ksp-mods/PreciseManeuver"
+title="Curseforge"><img
+src="https://img.shields.io/badge/CurseForge-Listed-white.svg?labelColor=6441A4&amp;style=plastic&amp;logo=curseforge"
+title="Curseforge" alt="Curseforge" /></a> <a
+href="http://forum.kerbalspaceprogram.com/index.php?/topic/197082-*/"
+title="CKAN"><img
+src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/PreciseManeuver/master/json/ckan.json"
+title="CKAN" alt="CKAN" /></a> <a
+href="https://github.com/zer0Kerbal/PreciseManeuver/"
+title="GitHub"><img
+src="https://img.shields.io/badge/Github-Listed-white.svg?labelColor=181717&amp;style=plastic&amp;logo=github"
+title="GitHub" alt="GitHub" /></a> <a
+href="http://spacedock.info/mod/2998" title="SpaceDock"><img
+src="https://img.shields.io/badge/SpaceDock-Listed-white.svg?labelColor=181717&amp;style=plastic&amp;logo=data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCA1MDAgNTAwIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1MDAgNTAwOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+Cgkuc3Qwe2ZpbGw6IzFBMUExQTt9Cgkuc3Qxe2ZpbGw6IzA1Nzg5Mzt9Cgkuc3Qye2ZpbGw6IzA3QUNEMjt9Cjwvc3R5bGU+CjxwYXRoIGlkPSJYTUxJRF8xXyIgY2xhc3M9InN0MCIgZD0iTTQwMCwwLjZIMTAwYy01NSwwLTEwMCw0NS0xMDAsMTAwVjQwMGMwLDU1LDQ1LDEwMCwxMDAsMTAwaDMwMGM1NSwwLDEwMC00NSwxMDAtMTAwVjEwMC42CglDNTAwLDQ1LjYsNDU1LDAuNiw0MDAsMC42eiIvPgo8ZyBpZD0iWE1MSURfNl8iPgoJPGcgaWQ9IlhNTElEXzlfIj4KCQk8cGF0aCBpZD0iWE1MSURfMTdfIiBjbGFzcz0ic3QxIiBkPSJNMTgzLjMsMTY1LjljNi40LTMuNiwxNi45LTMuNiwyMy4zLDBMNDY3LjQsMzE0YzYuNCwzLjYsNi40LDkuNiwwLDEzLjJMMjA2LjYsNDc0LjQKCQkJYy02LjQsMy42LTE3LjcsNi42LTI1LDYuNmgtNDQuOGMtNy40LDAtOC4xLTMtMS43LTYuNmwyNjEtMTQ3LjJjNi40LTMuNiw2LjQtOS42LDAtMTMuMkwxNzEsMTg2Yy02LjQtMy42LTYuNC05LjYsMC0xMy4yCgkJCUwxODMuMywxNjUuOXoiLz4KCTwvZz4KCTxnIGlkPSJYTUxJRF84XyI+CgkJPHBhdGggaWQ9IlhNTElEXzE2XyIgY2xhc3M9InN0MiIgZD0iTTMxOC44LDE5Yy03LjQsMC0xOC42LDIuOC0yNSw2LjRMMzMsMTczLjRjLTYuNCwzLjYtNi40LDkuNSwwLDEzLjFsMjYwLjcsMTQ3LjEKCQkJYzYuNCwzLjYsMTYuOSwzLjYsMjMuMywwbDEyLjMtN2M2LjQtMy42LDYuNC05LjUsMC0xMy4ybC0yMjUuMS0xMjdjLTYuNC0zLjYtNi40LTkuNSwwLTEzLjJMMzY1LjYsMjUuNGM2LjQtMy42LDUuNi02LjQtMS43LTYuNAoJCQlIMzE4Ljh6Ii8+Cgk8L2c+CjwvZz4KPC9zdmc+Cg=="
+title="SpaceDock" alt="SpaceDock" /></a><br />
+<img
+src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/PreciseManeuver/master/json/code.json"
+alt="Code" /> <img
+src="https://img.shields.io/badge/KSP-AVC--supported-00C961.svg?labelColor=black&amp;style=plastic"
+alt="KSP-AVC" /> <img
+src="https://github.com/zer0Kerbal/PreciseManeuver/workflows/Validate%20AVC%20.version%20files/badge.svg?labelColor=black&amp;style=plastic"
+title="AVC-Valid - thank you to DasSkelett"
+alt="Validate AVC .version files" /></p>
+<p><a href="https://zer0kerbal.github.io/PreciseManeuver/"
+title="GitHub Pages"><img
+src="https://github.com/zer0Kerbal/PreciseManeuver/actions/workflows/pages/pages-build-deployment/badge.svg"
+title="GitHub IO" alt="GitHub Pages" /></a></p>
+<h1 id="precise-maneuver-kpm">Precise Maneuver (KPM)</h1>
+<p>Precise Maneuver plugin for Kerbal Space Program</p>
+<p>Provides a window for more precise maneuver node editing.</p>
+<h2 id="by-zer0kerbal-and-originally-by-morse">By <a
+href="https://forum.kerbalspaceprogram.com/index.php?/profile/190933-*/"
+title="zer0Kerbal"><code>zer0Kerbal</code></a> and originally by <a
+href="https://forum.kerbalspaceprogram.com/index.php?/profile/154930-*/"
+title="Morse"><code>Morse</code></a></h2>
+<p><em>Adopted with explicit permission.</em></p>
+<img src="https://raw.githubusercontent.com/zer0Kerbal/PreciseManeuver/master/img/HERO-01.png" alt="Precise Maneuver" width="75%" height="75%">
+
+<h3 id="ksp-mod-showcase---precise-node">KSP Mod Showcase - Precise
+Node</h3>
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=IcTQ4YwxLGc"  target="_blank">
+<img src="http://img.youtube.com/vi/IcTQ4YwxLGc/mqdefault.jpg" alt="Watch the video" width="240"  height="180" border="10" /></a>
+
+<h3 id="usage-preamble-by-morse">Usage preamble by <a
+href="https://forum.kerbalspaceprogram.com/index.php?/profile/154930-*/"
+title="Morse">Morse</a></h3>
+<p>The toolbar icon will appear during the mapview, and by pressing on
+it you can enable and disable various components of the plugin.</p>
+<h4 id="the-components-are">The components are</h4>
+<ul>
+<li><strong>Maneuver Pager</strong>, allows to switch between maneuvers,
+focus on the current maneuver and delete it</li>
+<li><strong>Maneuver Presets</strong>, allows to save and load the
+parameters of the maneuver</li>
+<li><strong>Precise Input</strong>, allows to change the current
+maneuver precisely by the use of "+" and "-" buttons</li>
+<li><strong>Orbit Tools</strong>, allows to turn the orbit in
+normal/antinormal direction for a precise angle, to circularize the
+orbit, and to copy/paste the maneuver. The copy/paste format is similar
+to the Transfer Window Planner, and the maneuver can be pasted from
+it.</li>
+<li><strong>Maneuver Gizmo</strong>, is the maneuver gizmo that looks
+very similar to the stock gizmo, and behaves in a similar way</li>
+<li><strong>Next Encounter</strong>, shows the next encounter, allows to
+focus on it and shows the distance to it in the closest point (PE)</li>
+<li><strong>Ejection angles</strong>, shows the ejection parameters in
+case the orbit escapes from the SOI of the celestial body</li>
+<li><strong>Orbit Info</strong>, shows the parameters of the planned
+orbit</li>
+<li><strong>Patches Control</strong>, allows to change the mode of
+Patched Conics draw, i.e. the trajectories of the vessel</li>
+</ul>
+<h4 id="the-following-hotkeys-are-available-by-default">The following
+hotkeys are available by default</h4>
+<ul>
+<li>Keypad8/5: increase prograde/retrograde</li>
+<li>Keypad4/6: increase/decreas radial</li>
+<li>Keypad7/9: increase/decrease normal</li>
+<li>Keypad1/3: increase/decrease time</li>
+<li>Keypad2: switch different modes for trajectories (+alt for
+reverse)</li>
+<li>Keypad0: raise the increment step (+alt for reverse)</li>
+<li>"P": hide/show the window (all the hotkeys excluding the
+trajectories controls will stop working)</li>
+</ul>
+<p>Other keybindings are available, but are disabled by default.</p>
+<hr />
+<h3 id="localization">Localization</h3>
+<blockquote>
+<ul>
+<li><img
+src="https://raw.githubusercontent.com/zer0Kerbal/zer0Kerbal/zed&#39;K/Localization/img/American-flag-sm.png"
+title="American English" alt="English" /> American English
+&lt;us-en.cfg&gt;</li>
+<li><img
+src="https://raw.githubusercontent.com/zer0Kerbal/zer0Kerbal/zed&#39;K/Localization/img/German-flag-sm.png"
+title="Deutsch" alt="Deutsch" /> German (Deutsch) &lt;de.cfg&gt;</li>
+<li><img
+src="https://raw.githubusercontent.com/zer0Kerbal/zer0Kerbal/zed&#39;K/Localization/img/Spanish-flag-sm.png"
+title="Español" alt="Español" /> Spanish (Español)
+&lt;es-es.cfg&gt;</li>
+<li><img
+src="https://raw.githubusercontent.com/zer0Kerbal/zer0Kerbal/zed&#39;K/Localization/img/Japanese-flag-sm.png"
+title="日本語" alt="日本語" /> Japanese(日本語) &lt;ja.cfg&gt;</li>
+<li><img
+src="https://raw.githubusercontent.com/zer0Kerbal/zer0Kerbal/zed&#39;K/Localization/img/Russian-flag-sm.png"
+title="Русский" alt="Русский" /> Russian (Русский) &lt;ru.cfg&gt;</li>
+<li><img
+src="https://raw.githubusercontent.com/zer0Kerbal/zer0Kerbal/zed&#39;K/Localization/img/Chinese-flag-sm.png"
+title="中文" alt="简体中文" /> Simplified Chinese (简体中文)
+&lt;zh-cn.cfg&gt;</li>
+<li><em><strong>your translation here</strong></em></li>
+</ul>
+<p>HELP WANTED - See the <a
+href="https://github.com/zer0Kerbal/PreciseManeuver/blob/master/GameData/PreciseManeuver/Localization/readme.md"
+title="Localization">README in the Localization folder</a> for
+instructions for adding or improving translations. <a
+href="https://github.com/zer0Kerbal/PreciseManeuver/"
+title="GitHub">GitHub</a> push is the best way to contribute.
+<em>Additions and corrections welcome!</em></p>
+</blockquote>
+<hr />
+<h3 id="how-to-support-this-and-other-great-mods-by-zer0kerbal">How to
+support this and other great mods by <a
+href="https://forum.kerbalspaceprogram.com/index.php?/profile/190933-*/"
+title="zer0Kerbal"><code>zer0Kerbal</code></a></h3>
+<p><a
+href="https://www.paypal.com/donate?hosted_button_id=DC22YHMEJREKL"
+title="PayPal"><img
+src="https://img.shields.io/badge/Buy%20me%20some%20-LFO-BADA55?style=for-the-badge&amp;logo=paypal&amp;labelColor=FFDD00"
+title="PayPal" alt="Support" /></a> <a
+href="https://github.com/sponsors/zer0Kerbal"
+title="Github Sponsors"><img
+src="https://img.shields.io/badge/Github%20-Sponsor-EA4AAA?style=for-the-badge&amp;logo=githubsponsors"
+title="Github Sponsors" alt="Github Sponsor" /></a> <a
+href="https://www.patreon.com/bePatron?u=23390503" title="Patreon"><img
+src="https://img.shields.io/badge/Patreon%20-Patreonize-FF424D?style=for-the-badge&amp;logo=patreon"
+title="Patreon" alt="Patreon" /></a> <a
+href="https://buymeacoffee.com/zer0Kerbal" title="Buy Me A Snack"><img
+src="https://img.shields.io/badge/Buy%20Me%20a%20-Snack!-FFDD00?style=for-the-badge&amp;logo=buymeacoffee"
+title="Buy Me A Snack" alt="Buy zer0Kerbal a snack" /></a></p>
+<hr />
+<h3 id="see-more">See More</h3>
+<ul>
+<li>Discussions and news on this mod: See <a
+href="https://github.com/zer0Kerbal/PreciseManeuver/discussions"
+title="Discussions">Discussions</a> or <a
+href="https://forum.kerbalspaceprogram.com/index.php?/topic/207261-*"
+title="Precise Maneuver Forum Thread">KSP Forums</a></li>
+<li>Changelog Summary for more details of changes : See <a
+href="https://raw.githubusercontent.com/zer0Kerbal/PreciseManeuver/master/changelog.md"
+title="Changelog">ChangeLog</a></li>
+<li>Known Issues for more details of feature requests and known issues :
+See <a
+href="https://github.com/zer0Kerbal/PreciseManeuver/wiki/Known-Issues"
+title="Known Issues">Known Issues</a></li>
+<li>GitHub Pages : See <a
+href="https://zer0kerbal.github.io/PreciseManeuver/"
+title="GitHub Pages">Pages</a></li>
+</ul>
+<hr />
+<h3 id="installation-directions">Installation Directions</h3>
+<p><em><strong>Use</strong></em> CurseForge/OverWolf App (currently does
+not install dependencies) <a href="#fn1" class="footnote-ref"
+id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
+  <a href="https://download.curseforge.com/">
+    <img src="https://www.overwolf.com/brand-guidelines/img/logo2.svg" alt="CurseForge/OverWolf App" width="15%" height="15%">
+</a>
+
+<p>or <a
+href="http://forum.kerbalspaceprogram.com/index.php?/topic/197082-*/"
+title="CKAN"><img src="https://i.postimg.cc/x8XSVg4R/sj507JC.png"
+title="CKAN" alt="CKAN" /></a> <a href="#fn2" class="footnote-ref"
+id="fnref2" role="doc-noteref"><sup>2</sup></a></p>
+<h3 id="dependencies">Dependencies</h3>
+<ul>
+<li><a href="https://kerbalspaceprogram.com/"
+title="Kerbal Space Program">Kerbal Space Program</a> <a
+href="https://kerbalspaceprogram.com/" title="Kerbal Space Program"><img
+src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/PreciseManeuver/master/json/ksp.json&amp;logo=data:image/webp;base64,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"
+title="Kerbal Space Program" alt="Kerbal Space" /></a> <a href="#fn3"
+class="footnote-ref" id="fnref3"
+role="doc-noteref"><sup>3</sup></a></li>
+</ul>
+<hr />
+<div style="border:0.5px solid Tomato; background-color: #BADA55; color: #FF0000; text-align:center">
+<p><b>*red box below is a link to forum post on how to get support*</p>  
+<a href = "https://forum.kerbalspaceprogram.com/index.php?/topic/83212-*">
+  <p><img src = "https://i.postimg.cc/vHP6zmrw/image.png" alt="How to get support"></p></a>Be Kind: Lithobrake, not jakebrake! Keep your Module Manager up to date</div>
+
+<h3 id="credits-and-special-thanks">Credits and Special Thanks</h3>
+<ul>
+<li><a
+href="https://forum.kerbalspaceprogram.com/index.php?/profile/154930-*/"
+title="Morse">Morse</a> for creating this glorious mod!</li>
+</ul>
+<h3 id="legal-mumbo-jumbo-license-provenance">Legal Mumbo Jumbo (License
+<em>provenance</em>)</h3>
+<h4 id="current-1---zer0kerbal">Current (1) - <a
+href="https://forum.kerbalspaceprogram.com/index.php?/profile/190933-*/"
+title="zer0Kerbal"><code>zer0Kerbal</code></a></h4>
+<blockquote>
+<p>Forum: <a
+href="https://forum.kerbalspaceprogram.com/index.php?/topic/207261-*"
+title="Precise Maneuver Forum Thread">Thread</a> - Source: <a
+href="https://github.com/zer0Kerbal/PreciseManeuver/"
+title="GitHub">GitHub</a><br />
+License: <a href="https://choosealicense.com/licenses/bsd-2-clause/"
+title="SimpleBSD-2-Clause"><img
+src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/PreciseManeuver/master/json/license.json"
+title="SimpleBSD-2-Clause" alt="License" /></a></p>
+<h5 id="disclaimers">Disclaimer(s)</h5>
+<p><em><strong>All bundled mods are distributed under their own
+licenses</strong></em><br />
+<em><strong>All art assets (textures, models, animations, sounds) are
+distributed under their own licenses</strong></em></p>
+</blockquote>
+<h4 id="original-0---author-morse">Original (0) - Author: <a
+href="https://forum.kerbalspaceprogram.com/index.php?/profile/154930-*/"
+title="Morse"><code>Morse</code></a></h4>
+<blockquote>
+<p>Forum: <a
+href="https://forum.kerbalspaceprogram.com/index.php?/topic/128303-*"
+title="KSP Forum">Thread</a> - Download: <a
+href="https://github.com/radistmorse/KSPPreciseManeuver/releases/latest/"
+title="GitHub">GitHub</a> - Source: <a
+href="https://github.com/radistmorse/KSPPreciseManeuver"
+title="GitHub">GitHub</a> License: <a
+href="https://choosealicense.com/licenses/bsd-2-clause/"
+title="SimpleBSD-2-Clause"><img
+src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/PreciseManeuver/master/json/license.json"
+title="SimpleBSD-2-Clause" alt="License" /></a></p>
+</blockquote>
+<!-- mod links -->
+
+<!--- mod -->
+
+<!--- mod provenance -->
+
+<!--- license provenance-->
+
+<!--- AVC -->
+
+<!--- CKAN -->
+
+<!-- [CKAN:shd]: https://img.shields.io/badge/CKAN-PreciseManeuver-white.svg?labelColor=E32811&style=plastic "CKAN" -->
+
+<!--- release links -->
+
+<!-- Kerbal Space Program -->
+
+<!-- financial support -->
+
+<!-- Localization -->
+
+<!-- footnotes -->
+
+<section class="footnotes footnotes-end-of-document"
+role="doc-endnotes">
+<hr />
+<ol>
+<li id="fn1" role="doc-endnote"><p>this isn't a mod. ;P<a href="#fnref1"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2" role="doc-endnote"><p>this isn't a mod. ;P<a href="#fnref2"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3" role="doc-endnote"><p><em><strong>may</strong></em> work on
+other versions (YMMV)<a href="#fnref3" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>
