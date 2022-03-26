@@ -1,3 +1,16 @@
+---
+permalink: /BasicInstructions.html
+title: Basic Instructions
+description: written in a language you don't know
+# layout: bare
+tags: instructions,manual,page,kerbal,ksp,zer0Kerbal,zedK
+---
+
+<!-- BasicInstructions.md v1.1.0.0
+PreciseManeuver! (KPM)
+created: 01 Oct 2019
+updated: 02 Mar 2022 -->
+
 # Precise Maneuver (KPM)
 
 Currently is looking for translators. [See details]
