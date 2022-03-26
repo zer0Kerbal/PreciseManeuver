@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Release</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BD20CDC4-952C-413A-AB29-85BF346F964A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>KSPPreciseManeuver</RootNamespace>
+    <AssemblyName>PreciseManeuver</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <!-- <OutputPath>BUILD\</OutputPath> -->
+    <OutputPath>..\GameData\PreciseManeuver\Plugins</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>embedded</DebugType>
+    <Optimize>true</Optimize>
+    <!-- <OutputPath>BUILD\</OutputPath> -->
+    <OutputPath>..\GameData\PreciseManeuver\Plugins</OutputPath>
+    <DefineConstants>
+    </DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="$(K112)\KSP_x64_Data\Managed\Assembly-CSharp.dll" >
+      <Private>False</Private>
+    </Reference>
+    <Reference Include ="$(K112)\KSP_x64_Data\Managed\Assembly-CSharp-firstpass.dll" >
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Xml" />
+    <Reference Include="$(K112)\KSP_x64_Data\Managed\UnityEngine.dll" >
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="$(K112)\KSP_x64_Data\Managed\UnityEngine.AnimationModule.dll" >
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="$(K112)\KSP_x64_Data\Managed\UnityEngine.AssetBundleModule.dll" >
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="$(K112)\KSP_x64_Data\Managed\UnityEngine.CoreModule.dll" >
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="$(K112)\KSP_x64_Data\Managed\UnityEngine.IMGUIModule.dll" >
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="$(K112)\KSP_x64_Data\Managed\UnityEngine.InputLegacyModule.dll" >
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="$(K112)\KSP_x64_Data\Managed\UnityEngine.InputModule.dll" >
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="$(K112)\KSP_x64_Data\Managed\UnityEngine.TextCoreModule.dll" >
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="$(K112)\KSP_x64_Data\Managed\UnityEngine.TextRenderingModule.dll" >
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="$(K112)\KSP_x64_Data\Managed\UnityEngine.UI.dll" >
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="$(K112)\KSP_x64_Data\Managed\UnityEngine.UIElementsModule.dll" >
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="$(K112)\KSP_x64_Data\Managed\UnityEngine.UIModule.dll" >
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="src\GUIComponentManager.cs" />
+    <Compile Include="src\GUIControl.cs" />
+    <Compile Include="src\NodeManager.SavedNode.cs" />
+    <Compile Include="src\PreciseManeuverToolbar.cs" />
+    <Compile Include="src\KACWrapper.cs" />
+    <Compile Include="src\PreciseManeuverHotkeys.cs" />
+    <Compile Include="src\NodeManager.cs" />
+    <Compile Include="src\NodeTools.cs" />
+    <Compile Include="src\PreciseManeuverConfig.cs" />
+    <Compile Include="src\PreciseManeuver.cs" />
+    <Compile Include="properties\AssemblyInfo.cs" />
+    <Compile Include="src\MainWindow.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ChangeLog" />
+    <Content Include="LICENSE" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>call "$(SolutionDir)PostBuildEvent"</PostBuildEvent>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="PreciseManeuver.Unity.csproj">
+      <Project>{3ebb00a5-1bbe-46c1-ae28-01b5f6c603f6}</Project>
+      <Name>PreciseManeuver.Unity</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Localization\localization.cfg" />
+  </ItemGroup>
+</Project>
