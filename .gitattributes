@@ -1,5 +1,5 @@
-# .gitattributes v2.0.2.0
-# add git lfs support for .psd
+# .gitattributes v2.0.3.0
+# remove git lfs
 #
 # handle .imgbotconfig
 *.imgbotconfig linguist-language=json
@@ -27,7 +27,7 @@
 *.jpg binary
 *.dds binary
 *.tga binary
-*.psd filter=lfs diff=lfs merge=lfs -text
+*.psd binary
 *.mu  binary
 *.mbm binary
 ###############################################################################

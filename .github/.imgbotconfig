@@ -1,12 +1,12 @@
 {
     "schedule": "weekly",
     "ignoredFiles": [
-        "GameData/*",
-        "docs/LegalMumboJumbo/*",
-        "GameData/PreciseManeuver/*",
-        "source/*",
-        "source//Prefabs/*",
-        "source/UnityAssets/Textures/*",
+        "/GameData/*",
+        "/docs/LegalMumboJumbo/*",
+        "/GameData/PreciseManeuver/*",
+        "/source/*",
+        "/source//Prefabs/*",
+        "/source/UnityAssets/Textures/*",
         "**/Assets/**",
         "**/Flags/**",
         "**/Agents/**",

@@ -5,5 +5,7 @@
 
 ## Documents
 - [404](404.md)
-- [LegalMumboJumbo](LegalMumboJumbo.md)
+- [Attribution](Attribution.md)
+- [BasicInstructions](BasicInstructions.md)
 - [Localizations](Localizations.md)
+- [ManualInstallation](ManualInstallation.md)

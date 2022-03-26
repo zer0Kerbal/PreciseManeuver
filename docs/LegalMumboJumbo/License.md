@@ -4,16 +4,16 @@ title:  BSD 2-Clause License
 ---
 
 <!-- 404.md v1.0.0.0
-Adjustable Mod Panel (KAMP)
+Precise Maneuver (KMP)
 created: 01 Feb 2022
 updated: 20 Feb 2022 -->
 
-# Adjustable Mod Panel (KAMP)
+# Precise Maneuver (KMP)
 
 ## BSD 2-Clause License
 
-Copyright © (c) 2017,2019 radistmorse
-Copyright © (c) 2021,2022 zer0Kerbal (zer0Kerbal at hotmail dot com)
+Copyright © (c) 2017,2019 radistmorse  
+Copyright © (c) 2021,2022 zer0Kerbal  
 
 ### All rights reserved.
 
