@@ -170,8 +170,8 @@ or [![CKAN][CKAN:img]][CKAN:url] [^3]
 
 <!--- CKAN -->
 [CKAN:img]: https://i.postimg.cc/x8XSVg4R/sj507JC.png "CKAN"
-[CKAN:url]: http://forum.kerbalspaceprogram.com/index.php?/topic/197082-* "CKAN"
-[CKAN:shd]: https://img.shields.io/badge/Github-Listed-white.svg "CKAN"
+[CKAN:url]: http://forum.kerbalspaceprogram.com/index.php?/topic/197082-*/ "CKAN"
+[CKAN:shd]:  https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/PreciseManeuver/master/json/ckan.json "CKAN"
 <!-- [CKAN:shd]: https://img.shields.io/badge/CKAN-PreciseManeuver-white.svg?labelColor=E32811&style=plastic "CKAN" -->
 
 <!--- release links -->
