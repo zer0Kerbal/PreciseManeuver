@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "label": "Code",
  "labelColor": "66ccff",
- "message": "˂˂.NET 4.7.2˃˃ ˂˂Unity 2017˃˃  ˂˂C# 10.0˃˃",
+ "message": "˂˂.NET 4.7.2˃˃ ˂˂Unity 2019.4.18f1 LTS˃˃  ˂˂C# 10.0˃˃",
  "color": "darkblue",
  "style": "plastic"
 }
