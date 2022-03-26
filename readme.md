@@ -22,7 +22,7 @@ Provides a window for more precise maneuver node editing.
 
 
 
-## By [`zer0Kerbal`][LINK:zer0Kerbal] and originally by [`Morse`][LINK:morse]
+## By [`zer0Kerbal`][zer0Kerbal] and originally by [`Morse`][morse]
 
 *Adopted with explicit permission.*
 
@@ -31,7 +31,7 @@ Provides a window for more precise maneuver node editing.
 
 
 
-### Usage preamble by [Morse][LINK:morse]
+### Usage preamble by [Morse][morse]
 
 The toolbar icon will appear during the mapview, and by pressing on it you can enable and disable various components of the plugin.
 
@@ -61,21 +61,21 @@ Other keybindings are available, but are disabled by default.
 
 ---
 
-### Localization - *work in progress*
+### Localization
 
->* [x] - ![American English][EN] American English <us-en.cfg>  
->* [x] - ![Deutsch][DE] German (Deutsch)  <de.cfg>  
->* [x] - ![Español][ES] Spanish (Español) <es-es.cfg>  
->* [x] - ![日本語][JA] Japanese(日本語) <ja.cfg>  
->* [x] - ![Русский][RU] Russian (Русский) <ru.cfg>  
->* [x] - ![简体中文][CN] Simplified Chinese (简体中文) <zh-cn.cfg>
->* [ ] ***your translation here***
+>* ![English][EN] American English <us-en.cfg>  
+>* ![Deutsch][DE] German (Deutsch)  <de.cfg>  
+>* ![Español][ES] Spanish (Español) <es-es.cfg>  
+>* ![日本語][JA] Japanese(日本語) <ja.cfg>  
+>* ![Русский][RU] Russian (Русский) <ru.cfg>  
+>* ![简体中文][CN] Simplified Chinese (简体中文) <zh-cn.cfg>
+>* ***your translation here***
 >
 > HELP WANTED - See the [README in the Localization folder][MOD:local] for instructions for adding or improving translations. [GitHub][GitHub:url] push is the best way to contribute. *Additions and corrections welcome!*
 
 ---
 
-### How to support this and other great mods by [`zer0Kerbal`][LINK:zer0Kerbal]  
+### How to support this and other great mods by [`zer0Kerbal`][zer0Kerbal]  
 
 [![Support][PAYPAL:img]][PAYPAL:url] [![Github Sponsor][GSPONS:img]][GSPONS:url] [![Patreon][PATREON:img]][PATREON:url] [![Buy zer0Kerbal a snack][BMCC:img]][BMCC:url]
 
@@ -114,11 +114,11 @@ or [![CKAN][CKAN:img]][CKAN:url] [^3]
 
 ### Credits and Special Thanks
 
-* [Morse][LINK:morse] for creating this mod
+* [Morse][morse] for creating this glorious mod!
 
 ### Legal Mumbo Jumbo (License *provenance*)
 
-#### Current (1) - [`zer0Kerbal`][LINK:zer0Kerbal]
+#### Current (1) - [`zer0Kerbal`][zer0Kerbal]
 
 > Forum: [Thread][MOD:forum] - Source: [GitHub][GITHUB:url]  
 > License: [![License][LIC:shd]][LIC:url]
@@ -128,10 +128,10 @@ or [![CKAN][CKAN:img]][CKAN:url] [^3]
 > ***All bundled mods are distributed under their own licenses***  
 > ***All art assets (textures, models, animations, sounds) are distributed under their own licenses***
 
-#### Original (0) - Author: [`Morse`][LINK:morse]
+#### Original (0) - Author: [`Morse`][morse]
 
-> Forum: [Thread][MOD:org:thread]  - Download: [GitHub][MOD:org:download] - Source: [GitHub][MOD:org:source]
-> License: [![License][LIC:org:shd]][LIC:org:url]
+> Forum: [Thread][MOD:0:thread]  - Download: [GitHub][MOD:0:download] - Source: [GitHub][MOD:0:source]
+> License: [![License][LIC:0:shd]][LIC:0:url]
 
 <!-- mod links -->
 [MOD:forum]: https://forum.kerbalspaceprogram.com/index.php?/topic/207261-* "Precise Maneuver Forum Thread"
@@ -143,7 +143,7 @@ or [![CKAN][CKAN:img]][CKAN:url] [^3]
 [MOD:licns]: https://github.com/zer0Kerbal/PreciseManeuver/blob/master/LICENSE "Github License"
 [MOD:local]: https://github.com/zer0Kerbal/PreciseManeuver/blob/master/GameData/PreciseManeuver/Localization/readme.md "Localization"
 [MOD:pages]: https://zer0kerbal.github.io/PreciseManeuver/ "GitHub Pages"
-[MOD:wiki]: https://github.com/zer0Kerbal/PreciseManeuver/wiki "Wiki"
+[MOD:wiki]: https://zer0kerbal.github.io/PreciseManeuver/ "Wiki"
 
 <!--- mod -->
 [MOD:shd:latest]: https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/PreciseManeuver/master/json/mod.json
@@ -153,13 +153,13 @@ or [![CKAN][CKAN:img]][CKAN:url] [^3]
 [MOD:pages:shd]: https://github.com/zer0Kerbal/PreciseManeuver/actions/workflows/pages/pages-build-deployment/badge.svg "GitHub IO"
 
 <!--- mod provenance -->
-[MOD:org:source]: https://github.com/radistmorse/KSPPreciseManeuver "GitHub"
-[MOD:org:thread]:https://forum.kerbalspaceprogram.com/index.php?/topic/128303-* "KSP Forum"  
-[MOD:org:download]: https://github.com/radistmorse/KSPPreciseManeuver/releases/latest/ "GitHub"  
+[MOD:0:source]: https://github.com/radistmorse/KSPPreciseManeuver "GitHub"
+[MOD:0:thread]:https://forum.kerbalspaceprogram.com/index.php?/topic/128303-* "KSP Forum"  
+[MOD:0:download]: https://github.com/radistmorse/KSPPreciseManeuver/releases/latest/ "GitHub"  
 
 <!--- license provenance-->
-[LIC:org:url]: https://choosealicense.com/licenses/bsd-2-clause/ "SimpleBSD-2-Clause"
-[LIC:org:shd]: https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/PreciseManeuver/master/json/license.json "SimpleBSD-2-Clause"
+[LIC:0:url]: https://choosealicense.com/licenses/bsd-2-clause/ "SimpleBSD-2-Clause"
+[LIC:0:shd]: https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/PreciseManeuver/master/json/license.json "SimpleBSD-2-Clause"
 
 [LIC:url]: https://choosealicense.com/licenses/bsd-2-clause/ "SimpleBSD-2-Clause"
 [LIC:shd]: https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/PreciseManeuver/master/json/license.json "SimpleBSD-2-Clause"
@@ -171,7 +171,8 @@ or [![CKAN][CKAN:img]][CKAN:url] [^3]
 <!--- CKAN -->
 [CKAN:img]: https://i.postimg.cc/x8XSVg4R/sj507JC.png "CKAN"
 [CKAN:url]: http://forum.kerbalspaceprogram.com/index.php?/topic/197082-* "CKAN"
-[CKAN:shd]: https://img.shields.io/badge/CKAN-PreciseManeuver-white.svg?labelColor=E32811&style=plastic "CKAN"
+[CKAN:shd]: https://img.shields.io/badge/Github-Listed-white.svg "CKAN"
+<!-- [CKAN:shd]: https://img.shields.io/badge/CKAN-PreciseManeuver-white.svg?labelColor=E32811&style=plastic "CKAN" -->
 
 <!--- release links -->
 [CURSFG:url]: https://www.curseforge.com/kerbal/ksp-mods/PreciseManeuver "Curseforge"
@@ -215,8 +216,8 @@ or [![CKAN][CKAN:img]][CKAN:url] [^3]
 [TW]: https://raw.githubusercontent.com/zer0Kerbal/zer0Kerbal/zed'K/Localization/img/Taiwanese-flag-sm.png "国语"
 [HA]: https://raw.githubusercontent.com/zer0Kerbal/zer0Kerbal/zed'K/Localization/img/Hawaii-flag-sm.png "ʻŌlelo Pākē"
 
-[LINK:zer0Kerbal]: https://forum.kerbalspaceprogram.com/index.php?/profile/190933-zer0kerbal/ "zer0Kerbal"
-[LINK:morse]: https://forum.kerbalspaceprogram.com/index.php?/profile/154930-morse/ "Morse"
+[zer0Kerbal]: https://forum.kerbalspaceprogram.com/index.php?/profile/190933-*/ "zer0Kerbal"
+[morse]: https://forum.kerbalspaceprogram.com/index.php?/profile/154930-*/ "Morse"
 
 <!-- footnotes -->
 [^1]: ***may*** work on other versions (YMMV)
