@@ -14,12 +14,12 @@
 
 * #2 - Screenshots - contributed by zer0Kerbal
 * #4 - Repo work - contributed by zer0Kerbal
-* #12 - American English &lt;us-en.cfg&gt;
-* #14 - German (Deutsch) &lt;de.cfg&gt;
-* #15 - Spanish (Espa&#241;ol) &lt;es-es.cfg&gt;
-* #18 - Japanese(&#26085;&#26412;&#35486;) &lt;ja.cfg&gt;
-* #19 - Russian (&#1056;&#1091;&#1089;&#1089;&#1082;&#1080;&#1081;) &lt;ru.cfg&gt;
-* #20 - Simplified Chinese (&#31616;&#20307;&#20013;&#25991;) &lt;zh-cn.cfg&gt;
+* #12 - English <us-en.cfg>
+* #14 - German (Deutsch) <de.cfg>
+* #15 - Spanish (Español) <es-es.cfg>
+* #18 - Japanese(日本語) <ja.cfg>
+* #19 - Russian (Русский) <ru.cfg>
+* #20 - Simplified Chinese (简体中文) <zh-cn.cfg>
 * #29 - split localization into separate languages for easier handling
 
 ## 2.4.4
