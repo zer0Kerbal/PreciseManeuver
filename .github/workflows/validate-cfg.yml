@@ -1,0 +1,28 @@
+# 1.1.2.0
+# created: 08 May 2022
+# updated: 01 Jan 2023
+# update checkout to v3.0.2
+# update checkout to v3.3.0
+# Checks .cfg files for syntax errors
+# https://github.com/KSP-CKAN/KSPMMCfgParser
+
+name: Config file validation
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    types: [opened, synchronize, reopened]
+  workflow_dispatch:
+jobs:
+  validate:
+    name: Validate cfg files
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        # uses: actions/checkout@latest
+        uses: actions/checkout@main
+        with:
+          fetch-depth: 1
+      - name: Validate config files
+        uses: KSP-CKAN/KSPMMCfgParser@master
