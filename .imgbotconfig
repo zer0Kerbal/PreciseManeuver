@@ -1,23 +1,24 @@
 {
     "schedule": "weekly",
     "ignoredFiles": [
-        "/GameData/*",
-        "/docs/LegalMumboJumbo/*",
         "/GameData/PreciseManeuver/*",
-        "/source/*",
-        "/source//Prefabs/*",
-        "/source/UnityAssets/Textures/*",
-        "**/Assets/**",
-        "**/Flags/**",
-        "**/Agents/**",
-        "**/Textures/**",
-        "**/UI/**",
-        "**/PluginData/**",
-        "**/Icons/**",
-        "**/@thumbs/**",
-        "**/Prefabs/**"
-    ],
-    "aggressiveCompression": "false",
-    "compressWiki": "true",
-    "minKBReduced": 500
+		"source/*",
+		"**/@thumbs/**",
+		"**/Agencies/**",
+		"**/Assets/**",
+		"**/Flags/**",
+		"**/FX/**",
+		"**/Icons/**",
+		"**/LegalMumboJumbo/**",
+		"**/Parts/**",
+		"**/PluginData/**",
+		"**/Props/**",
+		"**/SimpleIcons/**",
+		"**/Spaces/**",
+		"**/Textures/**",
+		"**/UI/**"
+	],
+	"aggressiveCompression": "false",
+	"compressWiki": "true",
+	"minKBReduced": 500
 }
