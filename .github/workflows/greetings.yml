@@ -1,17 +1,69 @@
-# 1.1.0.1 - 2 Dec 2021
+# 1.2.0.3
+# created: 02 Dec 2021
+# updated: 01 Jan 2023
 # An action for filtering pull requests and issues from first-time contributors.
 # https://github.com/marketplace/actions/first-interaction
 
+# this file: CC BY-ND 4.0
+
 name: Greetings
 
-on: [pull_request, issues, issue_comment, discussion_comment, fork, gollum]
+on: [pull_request, issues, issue_comment, discussion_comment, fork, gollum, workflow_dispatch]
 
 jobs:
   greeting:
     runs-on: ubuntu-latest
+    permissions:
+        issues: write
+        pull-requests: write
+    if: ${{ github.actor != 'dependabot[bot]' }}
     steps:
-    - uses: actions/first-interaction@v1
+    # - uses: actions/first-interaction@latest
+    - uses: actions/first-interaction@main
+      # continue-on-error: true
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
-        issue-message: 'Thank you. Kindly read [contributiing.md](https://github.com/zer0Kerbal/.github/blob/master/.github/CONTRIBUTING.md), [code_of_conduct.md](https://github.com/zer0Kerbal/.github/blob/master/.github/CODE_OF_CONDUCT.md) and [styleguide.md](https://github.com/zer0Kerbal/.github/blob/master/.github/STYLEGUIDE.md). These are boilerplate.'
-        pr-message: 'Thank you. Kindly read [contributiing.md](https://github.com/zer0Kerbal/.github/blob/master/.github/CONTRIBUTING.md), [code_of_conduct.md](https://github.com/zer0Kerbal/.github/blob/master/.github/CODE_OF_CONDUCT.md) and [styleguide.md](https://github.com/zer0Kerbal/.github/blob/master/.github/STYLEGUIDE.md). These are boilerplate.'
+        issue-message: |
+          :+1: Thank you @${{ github.actor }} :octocat:
+          
+          :question::grey_question:
+          
+          Have you reviewed the open issues logs and recent changelogs?
+          
+          In order to help us help you, please provide:
+          * <KSP_ROOT>/KSP.LOG
+          * and one of the following:
+            * if Module Manger is installed
+              * <KSP_ROOT>/GameData/ModuleManager.ConfigCache
+            * if Module Manger /L is installed
+              * <KSP_ROOT>/PluginData/ModuleManager/ConfigCache.cfg
+          * Screenshots of issue (if appropriate) (images tell a much stronger tale)
+          
+          You can archive these files (rar or zip, sadly no 7zip) and drag-n-drop them into an issue comment
+          
+          :vibration_mode::eyes:Please either watch this repositiory for updates.
+          
+          :speech_balloon:Kindly read our simple guides to:
+          * [contributing](https://github.com/zer0Kerbal/.github/blob/master/.github/CONTRIBUTING.md)
+          * our expected [code of conduct](https://github.com/zer0Kerbal/.github/blob/master/.github/CODE_OF_CONDUCT.md) (hint: we are all adults here)
+          * our [style guide.md](https://github.com/zer0Kerbal/.github/blob/master/.github/STYLEGUIDE.md)
+          These are boilerplate.'
+        pr-message: | 
+          :+1: Thank you @${{ github.actor }}. :octocat:
+          
+          :zap:
+          
+          We (@zer0Kerbal) really do appreciate your contributing! :clap:
+            
+          If you are fixing a bug, please reference the issue number in the description.
+          If you are implementing a feature request, please check with the maintainers that the feature will be accepted first.
+          
+          :vibration_mode: :eyes: Please watch and :star: this repositiory for updates.
+          
+          All contributions are under this repositiory's license, unless specific allowances have been made in advance with @zer0Kerbal.
+          
+          * :speech_balloon: Kindly read our simple guides to:
+            * [contributing](https://github.com/zer0Kerbal/.github/blob/master/.github/CONTRIBUTING.md)
+            * our expected [code of conduct](https://github.com/zer0Kerbal/.github/blob/master/.github/CODE_OF_CONDUCT.md) (hint: we are all adults here)
+            * our [style guide.md](https://github.com/zer0Kerbal/.github/blob/master/.github/STYLEGUIDE.md)
+          These are boilerplate.'
