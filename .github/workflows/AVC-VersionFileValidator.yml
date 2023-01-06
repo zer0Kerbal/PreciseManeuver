@@ -1,21 +1,28 @@
-# v1.3.1
+# v1.5.0.
+# update checkout to @latest (3.3.0)
+# update checkout to v3.0.2
+# update AVC to v1.4
 # This is a standard workflow to validate all .version files
 # found in the root directory of the repository and any subdirectories,
 # whenever something is pushed to any branch in the repository, or to a "foreign" branch active in a pull request.
 # It should cover most cases.
-name: Validate AVC .version files
+
+name: AVC .version file validation
 on:
   push:
+    branches:
+      - master
   pull_request:
     types: [opened, synchronize, reopened]
+  workflow_dispatch:
+
 jobs:
   validate_version_files:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v2
+        uses: actions/checkout@main
         with:
           fetch-depth: 1
-      - name: KSP-AVC Version File Validator
-        uses: DasSkelett/AVC-VersionFileValidator@v1.3.1
-
+      - name: Validate files
+        uses: DasSkelett/AVC-VersionFileValidator@master
