@@ -18,7 +18,7 @@ jobs:
     - name: Setup .NET
       uses: actions/setup-dotnet@v3
       with:
-        dotnet-version: '4.7.x'
+        dotnet-version: '4.7.2'
     - run: echo '${{ steps.stepid.outputs.dotnet-version }}' # outputs 3.1.422
     - name: Build PreciseManeuver
       run: dotnet build  ./source/PreciseManeuver.csproj
