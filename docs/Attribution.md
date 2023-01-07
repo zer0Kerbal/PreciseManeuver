@@ -15,7 +15,7 @@ updated: 01 Feb 2022
 
 <script src="https://kit.fontawesome.com/0ea5493613.js" crossorigin="anonymous"></script>
 <i class="fa fa-gear fa-spin fa-2x" style="color: firebrick"></i>
-# Precise Maneuver (KPM)
+# Precise Maneuver (PM)
 [Home](https://zer0kerbal.github.io/PreciseManeuver)
 
 # Attribution
