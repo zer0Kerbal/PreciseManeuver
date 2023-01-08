@@ -1,7 +1,7 @@
 {
     "schedule": "weekly",
     "ignoredFiles": [
-        "/GameData/PreciseManeuver/*",
+        "/GameData/Morse/PreciseManeuver/*",
 		"source/*",
 		"**/@thumbs/**",
 		"**/Agencies/**",
