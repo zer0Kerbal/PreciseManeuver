@@ -1,1 +1,11 @@
-theme: jekyll-theme-midnight
+# config v1.0.3.0
+# Jekyll configuration
+name: Precise Maneuver (PM)
+logo: /img/HeroLogo_1920x1920.jpg
+description: An Addon for <a href="https://www.kerbalspaceprogram.com" color= "#bada55" target="_blank">Kerbal Space Program</a>.
+theme: jekyll-theme-architect
+markdown: kramdown
+highlighter: rouge
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
