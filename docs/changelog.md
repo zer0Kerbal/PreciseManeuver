@@ -39,6 +39,7 @@ CC BY-ND 4.0 by zer0Kerbal -->
 
 * Log Spam
   * move x into Awake to possibly alleviate log spam.
+  * thank you [Rodg88](https://github.com/Rodg88)
   * closes #36 - [Bug 🐞]: UnityException on load
 
 ### Status 2.4.99.1
