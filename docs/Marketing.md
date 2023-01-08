@@ -23,71 +23,69 @@ based upon work by LisiasT -->
 ## Marketing Slicks [WIP]
 
 * Table of Contents
-  * [Hero shot](#hero-01)
+  * [Hero shot](#hero-shot)
   * [Full Monty](#full)
   * [Gizmo](#gizmo)
   * [Minimal](#minimal)
   * [Node Pager](#node-pager)
-  * [Orbit Tools](#orbittools)
+  * [Orbit Tools](#orbit-tools)
   * [Saver](#saver)
   * [Settings Popup](#settings-popup)
-  * [TWP](#twp)
-
-
+  * [Transfer Window Planner](#transfer-window-planner)
 
 ### Hero Shot
 
-<img src="https://github.com/zer0Kerbal/FuelTanksPlus/blob/master/img/Hero-01.jpg" alt="Fuel Tanks Plus" width="75%" height="75%">
+<img src="https://raw.githubusercontent.com/zer0Kerbal/PreciseManeuver/master/img/HERO-01.png" alt="Hero" width="25%" height="25%">
 
-
-<img src="https://raw.githubusercontent.com/zer0Kerbal/PreciseManeuver/master/img/settingsPopup.png" alt="settings Popup" width="75%" height="75%">
-<img src="https://raw.githubusercontent.com/zer0Kerbal/PreciseManeuver/master/img/HERO-01".png alt="Hero" width="75%" height="75%">
-<img src="https://raw.githubusercontent.com/zer0Kerbal/PreciseManeuver/master/img/Full.png" alt="Full" width="75%" height="75%">
-<img src="https://raw.githubusercontent.com/zer0Kerbal/PreciseManeuver/master/img/Gizmo.png" alt="Gizmo" width="75%" height="75%">
-<img src="https://raw.githubusercontent.com/zer0Kerbal/PreciseManeuver/master/img/Minimal.png" alt="Minimal" width="75%" height="75%">
-<img src="https://raw.githubusercontent.com/zer0Kerbal/PreciseManeuver/master/img/NodePager.png" alt="Node Pager" width="75%" height="75%">
-<img src="https://raw.githubusercontent.com/zer0Kerbal/PreciseManeuver/master/img/Saver.png" alt="Saver" width="75%" height="75%">
-<img src="https://raw.githubusercontent.com/zer0Kerbal/PreciseManeuver/master/img/OrbitTools.png" alt="Orbit Tools" width="75%" height="75%">
-<img src="https://raw.githubusercontent.com/zer0Kerbal/PreciseManeuver/master/img/TWP.png" alt="TWP" width="75%" height="75%">
-
-
-
-### Mining Ore
-
-First mine the ore *(after you find it)*
-
-![Mining Ore][IMG:hero:2a]
 [top](#table-of-contents)
 
-### Refining Ore to Metal
+### Full
 
-Then refine the ore into metal
+<img src="https://raw.githubusercontent.com/zer0Kerbal/PreciseManeuver/master/img/Full.png" alt="Full" width="25%" height="25%">
 
-![Refining Ore to Metal][IMG:hero:2b]
 [top](#table-of-contents)
 
-### Printing Rocketparts from Metal
+### Gizmo
 
-Then using the MPL Science lab, print Rocket Parts
+<img src="https://raw.githubusercontent.com/zer0Kerbal/PreciseManeuver/master/img/Gizmo.png" alt="Gizmo" width="25%" height="25%">
 
-![Printing Rocketparts from Metal][IMG:hero:2c]
 [top](#table-of-contents)
 
-### Building Rockets
+### Minimal
 
-Then using a command pod and a docking port, build a new vessel or subassembly or even just a part
+<img src="https://raw.githubusercontent.com/zer0Kerbal/PreciseManeuver/master/img/Minimal.png" alt="Minimal" width="25%" height="25%">
 
-![Building Rockets][IMG:hero:2d]
 [top](#table-of-contents)
 
-### Finalize build
+### Node Pager
 
-Finalize your build and load up the resources, and
+<img src="https://raw.githubusercontent.com/zer0Kerbal/PreciseManeuver/master/img/NodePager.png" alt="Node Pager" width="25%" height="25%">
 
-*PROFIT!*
+[top](#table-of-contents)
 
-![Finalize build!][IMG:hero:2e]
-[top](#table-of-contents))
+### Orbit Tools
+
+<img src="https://raw.githubusercontent.com/zer0Kerbal/PreciseManeuver/master/img/OrbitTools.png" alt="Orbit Tools" width="25%" height="25%">
+
+[top](#table-of-contents)
+
+### Saver
+
+<img src="https://raw.githubusercontent.com/zer0Kerbal/PreciseManeuver/master/img/Saver.png" alt="Saver" width="25%" height="25%">
+
+[top](#table-of-contents)
+
+### Settings Popup
+
+<img src="https://raw.githubusercontent.com/zer0Kerbal/PreciseManeuver/master/img/settingsPopup.png" alt="settings Popup" width="25%" height="25%">
+
+[top](#table-of-contents)
+
+### Transfer Window Planner
+
+<img src="https://raw.githubusercontent.com/zer0Kerbal/PreciseManeuver/master/img/TWP.png" alt="TWP" width="50%" height="50%">
+
+[top](#table-of-contents)
 
 
 <!-- this file CC BY-ND 4.0 by zer0Kerbal -->
