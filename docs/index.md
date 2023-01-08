@@ -10,3 +10,4 @@
 - [BasicInstructions](BasicInstructions.md)
 - [Localizations](Localizations.md)
 - [ManualInstallation](ManualInstallation.md)
+- [ShortcutKeys](ShortcutKeys.md)
