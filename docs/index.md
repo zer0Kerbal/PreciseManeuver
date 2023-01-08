@@ -15,3 +15,4 @@
 - [Notices](Notices.md)
 - [ShortcutKeys](ShortcutKeys.md)
 - [Why](Why.md)
+- [changelog](changelog.md)
