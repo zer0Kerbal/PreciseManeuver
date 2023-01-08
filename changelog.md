@@ -1,6 +1,6 @@
 # Changelog  
   
-| modName    | PreciseManeuver (KPM)                                             |
+| modName    | Precise Maneuver (PM)                                             |
 | ---------- | ----------------------------------------------------------------- |
 | license    | BSD-2-Clause                                                      |
 | author     | radistmorse and zer0Kerbal                                        |
