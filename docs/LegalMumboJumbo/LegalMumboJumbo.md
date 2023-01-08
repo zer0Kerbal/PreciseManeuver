@@ -8,7 +8,7 @@ tags: legal,mumbo,jumbo,page,kerbal,ksp,zer0Kerbal,zedK
 
 <!--
 LegalMumboJumbo.md v1.0.2.0
-PreciseManeuver! (KPM)
+Precise Maneuver (PM)
 created: 01 Feb 2022
 updated: 01 Feb 2022
 -->
@@ -18,7 +18,7 @@ updated: 01 Feb 2022
 <script src="https://kit.fontawesome.com/0ea5493613.js" crossorigin="anonymous"></script>
 <i class="fa fa-gear fa-spin fa-2x" style="color: firebrick"></i>
 
-# PreciseManeuver! (KPM)
+# Precise Maneuver (PM)
 
 [Home](/index.md)
 
