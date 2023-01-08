@@ -10,6 +10,23 @@
 | spacedock  | (https://spacedock.info/mod/2998)                                 |
 | ckan       | PreciseManeuver                                                   |
 
+## Version 2.4.99.1-prerelease - `<Thank you Morse>` edition
+
+* Released
+  * 07 Jan 2023
+  * for Kerbal Space Program 1.12.4
+  * by [zer0Kerbal](https://github.com/zer0Kerbal)
+
+### Summary 2.4.99.1
+
+* recompile for 1.12.4
+* <PreciseManeuver.dll> v2.4.4.0 --> 2.4.99.
+* <PreciseManeuver.Unity.dll> v2.4.4.0 --> 2.4.99.
+
+* move x into Awake to possibly alleviate log spam.
+
+---
+
 ## 2.4.99.0-adoption `<Kerbal Floating Point Precision>` edition
 
 ## adopted by zer0Kerbal
