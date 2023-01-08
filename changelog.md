@@ -3,7 +3,7 @@
 | modName    | Precise Maneuver (PM)                                             |
 | ---------- | ----------------------------------------------------------------- |
 | license    | BSD-2-Clause                                                      |
-| author     | radistmorse and zer0Kerbal                                        |
+| author     | Morse and zer0Kerbal                                              |
 | forum      | (https://forum.kerbalspaceprogram.com/index.php?/topic/207261-*/) |
 | github     | (https://github.com/zer0Kerbal/zer0Kerbal/PreciseManeuver)        |
 | curseforge | (https://www.curseforge.com/kerbal/ksp-mods/PreciseManeuver)      |
