@@ -1,0 +1,35 @@
+{
+    "NAME"           : "Precise Maneuver (PM)",
+    "URL"            : "https://raw.githubusercontent.com/zer0Kerbal/PreciseManeuver/master/PreciseManeuver.version",
+    "DOWNLOAD"       : "https://github.com/zer0Kerbal/PreciseManeuver/releases",
+	"CHANGE_LOG_URL" : "https://raw.githubusercontent.com/zer0Kerbal/PreciseManeuver/master/changelog.md",
+    "GITHUB": {
+        "USERNAME"          : "zer0Kerbal",
+        "REPOSITORY"        : "PreciseManeuver",
+		"ALLOW_PRE_RELEASE" : "false"
+     },
+    "VERSION" :
+    {
+        "MAJOR" : 2,
+        "MINOR" : 4,
+        "PATCH" : 99,
+        "BUILD" : 0
+    },
+    "KSP_VERSION" :
+    {
+        "MAJOR" : 1,
+        "MINOR" : 12,
+        "PATCH" : 3
+    },
+    "KSP_VERSION_MIN" :
+    {
+        "MAJOR" : 1,
+        "MINOR" : 8,
+        "PATCH" : 0
+    },
+	"INSTALL_LOC" :
+	{
+		"NAME" :	  "PreciseManeuver",
+		"DIRECTORY" : "PreciseManeuver"
+	}
+}
