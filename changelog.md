@@ -20,8 +20,8 @@
 ### Summary 2.4.99.1
 
 * recompile for 1.12.4
-* <PreciseManeuver.dll> v2.4.4.0 --> 2.4.99.
-* <PreciseManeuver.Unity.dll> v2.4.4.0 --> 2.4.99.
+* <PreciseManeuver.dll> v2.4.4.0 --> 2.4.99.126
+* <PreciseManeuver.Unity.dll> v2.4.4.0 --> 2.4.99.1
 
 * move x into Awake to possibly alleviate log spam.
 
