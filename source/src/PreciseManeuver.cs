@@ -45,8 +45,14 @@ namespace KSPPreciseManeuver {
     private UI.DraggableWindow m_MainWindow = null;
     private GameObject         m_MainWindowObject = null;
 
-    private GameObject m_WindowPrefab = PreciseManeuverConfig.Instance.Prefabs.LoadAsset<GameObject> ("PreciseManeuverWindow");
+    //private GameObject m_WindowPrefab = PreciseManeuverConfig.Instance.Prefabs.LoadAsset<GameObject> ("PreciseManeuverWindow");
+    private GameObject m_WindowPrefab;
 
+    internal void Awake()
+    {
+        m_WindowPrefab = PreciseManeuverConfig.Instance.Prefabs.LoadAsset<GameObject>("PreciseManeuverWindow");
+    }
+  
     internal void Start () {
       GameEvents.onManeuverNodeSelected.Add (new EventVoid.OnEvent (manager.SearchNewGizmo));
 

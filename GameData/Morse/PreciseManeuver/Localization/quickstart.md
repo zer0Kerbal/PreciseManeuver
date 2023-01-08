@@ -4,10 +4,10 @@ title: Quickstart Guide
 ---
 
 <!--
-quickstart.md v1.0.1.0
+quickstart.md v1.0.1.1
 Localization project
 created: 01 Jan 2018
-updated: 02 Mar 2022  
+updated: 20 May 2022
 
 -->
 
@@ -42,4 +42,4 @@ There are some characters that should not be translated into another language an
 2. control sequences like '\n', '\t' or similar.
 3. HTML Tags like `<b>...</b>, <i>...</i>` or similar
 
-<!-- CC BY-ND-3.0 Unported  by zer0Kerbal  -->
+<!-- CC BY-ND-4.0 by zer0Kerbal  -->

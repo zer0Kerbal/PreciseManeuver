@@ -1,14 +1,43 @@
 # Changelog  
   
-| modName    | Precise Maneuver (PM)                                            |
-| ---------- | ---------------------------------------------------------------- |
-| license    | BSD-2-Clause                                                     |
-| author     | radistmorse and zer0Kerbal                                       |
-| forum      | (https://forum.kerbalspaceprogram.com/index.php?/topic/207261-*) |
-| github     | (https://github.com/zer0Kerbal/zer0Kerbal/PreciseManeuver)       |
-| curseforge | (https://www.curseforge.com/kerbal/ksp-mods/PreciseManeuver)     |
-| spacedock  | (https://spacedock.info/mod/2998)                                |
-| ckan       | PreciseManeuver                                                 |
+| modName    | Precise Maneuver (PM)                                             |
+| ---------- | ----------------------------------------------------------------- |
+| license    | BSD-2-Clause                                                      |
+| author     | Morse and zer0Kerbal                                              |
+| forum      | (https://forum.kerbalspaceprogram.com/index.php?/topic/207261-*/) |
+| github     | (https://github.com/zer0Kerbal/zer0Kerbal/PreciseManeuver)        |
+| curseforge | (https://www.curseforge.com/kerbal/ksp-mods/PreciseManeuver)      |
+| spacedock  | (https://spacedock.info/mod/2998)                                 |
+| ckan       | PreciseManeuver                                                   |
+
+## Version 2.4.99.1-prerelease - `<Thank you Morse>` edition
+
+* Released
+  * 07 Jan 2023
+  * for Kerbal Space Program 1.12.4
+  * by [zer0Kerbal](https://github.com/zer0Kerbal)
+
+### Summary 2.4.99.1
+
+* Compile for 1.12.4
+  * .NET 4.7.2
+  * C# 10.0
+  * Unity 2019.4.18f1 LTS
+* <PreciseManeuver.dll> v2.4.4.0 --> 2.4.99.132
+* <PreciseManeuver.Unity.dll> v2.4.4.0 --> 2.4.99.1
+
+* Log Spam
+  * move x into Awake to possibly alleviate log spam.
+  * thank you [Rodg88](https://github.com/Rodg88)
+  * closes #36 - [Bug 🐞]: UnityException on load
+
+### Status 2.4.99.1
+
+* Issues
+  * closes #38 - Precise Maneuver (PM) 2.4.99.1-prerelease `<Thank you Morse>` edition
+  * closes #39 - 2.4.99.1 Additional Tasks
+
+---
 
 ## 2.4.99.0-adoption `<Kerbal Floating Point Precision>` edition
 

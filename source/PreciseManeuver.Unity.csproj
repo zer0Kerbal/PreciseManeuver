@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
-    <Configuration Condition=" '$(Configuration)' == '' ">Release</Configuration>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{3EBB00A5-1BBE-46C1-AE28-01B5F6C603F6}</ProjectGuid>
     <OutputType>Library</OutputType>
@@ -10,6 +10,8 @@
     <RootNamespace>KSPPreciseManeuver.UI</RootNamespace>
     <AssemblyName>PreciseManeuver.Unity</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <Deterministic>true</Deterministic>
+    <LangVersion>latest</LangVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
   </PropertyGroup>
@@ -17,98 +19,103 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <!-- <OutputPath>BUILD\</OutputPath> -->
-    <OutputPath>..\GameData\PreciseManeuver\Plugins</OutputPath>
+    <OutputPath>..\GameData\Morse\PreciseManeuver\Plugins</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <Prefer32Bit>false</Prefer32Bit>
+    <PlatformTarget>anycpu</PlatformTarget>
+    <DocumentationFile>..\docs\Code\Code.UI.xml</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>embedded</DebugType>
     <Optimize>true</Optimize>
-    <!-- <OutputPath>BUILD\</OutputPath> -->
-    <OutputPath>..\GameData\PreciseManeuver\Plugins</OutputPath>
-    <DefineConstants>
-    </DefineConstants>
+    <OutputPath>..\GameData\Morse\PreciseManeuver\Plugins</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <DebugSymbols>false</DebugSymbols>
     <Prefer32Bit>false</Prefer32Bit>
+    <PlatformTarget>anycpu</PlatformTarget>
+    <ConsolePause>false</ConsolePause>
+    <DocumentationFile>..\docs\Code\Code.UI.xml</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Interfaces\IControl.cs" />
-    <Compile Include="Interfaces\IUTControl.cs" />
-    <Compile Include="Interfaces\IKeybindingsControl.cs" />
+    <Reference Include="$(K112)UnityEngine.dll">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="$(K112)UnityEngine.CoreModule.dll">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="$(K112)UnityEngine.InputLegacyModule.dll">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="$(K112)UnityEngine.InputModule.dll">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="$(K112)UnityEngine.UI.dll">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="$(K112)UnityEngine.UIModule.dll">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
     <Compile Include="Interfaces\IAxisControl.cs" />
-    <Compile Include="Interfaces\IPagerControl.cs" />
-    <Compile Include="Interfaces\IIncrementControl.cs" />
-    <Compile Include="Interfaces\ITimeAlarmControl.cs" />
-    <Compile Include="Interfaces\IOrbitToolsControl.cs" />
-    <Compile Include="Interfaces\IEjectionControl.cs" />
-    <Compile Include="Interfaces\IOrbitInfoControl.cs" />
-    <Compile Include="Interfaces\IEncounterControl.cs" />
     <Compile Include="Interfaces\IConicsControl.cs" />
-    <Compile Include="UI\ConicsControl.cs" />
-    <Compile Include="UI\GizmoControl.cs" />
+    <Compile Include="Interfaces\IControl.cs" />
+    <Compile Include="Interfaces\IEjectionControl.cs" />
+    <Compile Include="Interfaces\IEncounterControl.cs" />
     <Compile Include="Interfaces\IGizmoControl.cs" />
+    <Compile Include="Interfaces\IIncrementControl.cs" />
+    <Compile Include="Interfaces\IKeybindingsControl.cs" />
+    <Compile Include="Interfaces\IMenuControl.cs" />
+    <Compile Include="Interfaces\IOrbitInfoControl.cs" />
+    <Compile Include="Interfaces\IOrbitToolsControl.cs" />
+    <Compile Include="Interfaces\IPagerControl.cs" />
     <Compile Include="Interfaces\ISaverControl.cs" />
-    <Compile Include="UI\OrbitInfoControl.cs" />
-    <Compile Include="UI\OrbitToolsControl.cs" />
+    <Compile Include="Interfaces\ISectionControl.cs" />
+    <Compile Include="Interfaces\ITimeAlarmControl.cs" />
+    <Compile Include="Interfaces\IUTControl.cs" />
+    <Compile Include="UI\AxisControl.cs" />
+    <Compile Include="UI\ConicsControl.cs" />
+    <Compile Include="UI\DraggableWindow.cs" />
     <Compile Include="UI\EjectionControl.cs" />
     <Compile Include="UI\EncounterControl.cs" />
+    <Compile Include="UI\GizmoControl.cs" />
+    <Compile Include="UI\IncrementControl.cs" />
+    <Compile Include="UI\KeybindingControl.cs" />
+    <Compile Include="UI\OrbitInfoControl.cs" />
+    <Compile Include="UI\OrbitToolsControl.cs" />
+    <Compile Include="UI\PagerControl.cs" />
     <Compile Include="UI\SaverControl.cs" />
     <Compile Include="UI\TimeAlarmControl.cs" />
-    <Compile Include="UI\IncrementControl.cs" />
-    <Compile Include="UI\PagerControl.cs" />
-    <Compile Include="UI\UTControl.cs" />
-    <Compile Include="UI\AxisControl.cs" />
-    <Compile Include="Utils\PreciseManeuverDropdown.cs" />
-    <Compile Include="Utils\TooltipComponent.cs" />
-    <Compile Include="Utils\LocalizationComponent.cs" />
-    <Compile Include="Utils\RepeatButton.cs" />
-    <Compile Include="UI\KeybindingControl.cs" />
-    <Compile Include="Utils\ShrinkPanel.cs" />
-    <Compile Include="Utils\GizmoElement.cs" />
-    <Compile Include="Utils\CanvasGroupFader.cs" />
     <Compile Include="UI\ToolbarMenu.cs" />
     <Compile Include="UI\ToolbarMenuSection.cs" />
-    <Compile Include="Interfaces\IMenuControl.cs" />
-    <Compile Include="Interfaces\ISectionControl.cs" />
-    <Compile Include="Properties\AssemblyInfo.Unity.cs" />
+    <Compile Include="UI\UTControl.cs" />
+    <Compile Include="Utils\CanvasGroupFader.cs" />
+    <Compile Include="Utils\GizmoElement.cs" />
+    <Compile Include="Utils\LocalizationComponent.cs" />
+    <Compile Include="Utils\PreciseManeuverDropdown.cs" />
+    <Compile Include="Utils\RepeatButton.cs" />
+    <Compile Include="Utils\ShrinkPanel.cs" />
     <Compile Include="Utils\StyleApplicator.cs" />
-    <Compile Include="UI\DraggableWindow.cs" />
+    <Compile Include="Utils\TooltipComponent.cs" />
+    <Compile Include="Properties\AssemblyInfo.Unity.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="System" />
-    <Reference Include="$(K112)\KSP_x64_Data\Managed\UnityEngine.dll" >
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="$(K112)\KSP_x64_Data\Managed\UnityEngine.CoreModule.dll" >
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="$(K112)\KSP_x64_Data\Managed\UnityEngine.InputLegacyModule.dll" >
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="$(K112)\KSP_x64_Data\Managed\UnityEngine.InputModule.dll" >
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="$(K112)\KSP_x64_Data\Managed\UnityEngine.UI.dll" >
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="$(K112)\KSP_x64_Data\Managed\UnityEngine.UIModule.dll" >
-      <Private>False</Private>
-    </Reference>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
-  <PropertyGroup>
-    <PostBuildEvent>
-    </PostBuildEvent>
-  </PropertyGroup>
-  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
-       Other similar extension points exist, see Microsoft.Common.targets.
-  <Target Name="BeforeBuild">
-  </Target>
-  <Target Name="AfterBuild">
-  </Target>
-  -->
+  <ProjectExtensions>
+    <MonoDevelop>
+      <Properties>
+        <Policies>
+          <TextStylePolicy TabWidth="4" IndentWidth="4" RemoveTrailingWhitespace="True" NoTabsAfterNonTabs="False" EolMarker="Native" FileWidth="132" TabsToSpaces="False" scope="text/plain" />
+        </Policies>
+      </Properties>
+    </MonoDevelop>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
 </Project>

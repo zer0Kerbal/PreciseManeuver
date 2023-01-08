@@ -1,0 +1,217 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PreciseManeuver</name>
+    </assembly>
+    <members>
+        <member name="T:KSPPreciseManeuver.KACWrapper">
+            <summary>
+            The Wrapper class to access KAC from another plugin
+            </summary>
+        </member>
+        <member name="F:KSPPreciseManeuver.KACWrapper.KAC">
+             <summary>
+             This is the Kerbal Alarm Clock object
+            
+             SET AFTER INIT
+             </summary>
+        </member>
+        <member name="P:KSPPreciseManeuver.KACWrapper.AssemblyExists">
+             <summary>
+             Whether we found the KerbalAlarmClock assembly in the loadedassemblies.
+            
+             SET AFTER INIT
+             </summary>
+        </member>
+        <member name="P:KSPPreciseManeuver.KACWrapper.InstanceExists">
+             <summary>
+             Whether we managed to hook the running Instance from the assembly.
+            
+             SET AFTER INIT
+             </summary>
+        </member>
+        <member name="F:KSPPreciseManeuver.KACWrapper._KACWrapped">
+             <summary>
+             Whether we managed to wrap all the methods/functions from the instance.
+            
+             SET AFTER INIT
+             </summary>
+        </member>
+        <member name="P:KSPPreciseManeuver.KACWrapper.APIReady">
+            <summary>
+            Whether the object has been wrapped and the APIReady flag is set in the real KAC
+            </summary>
+        </member>
+        <member name="M:KSPPreciseManeuver.KACWrapper.InitKACWrapper">
+            <summary>
+            This method will set up the KAC object and wrap all the methods/functions
+            </summary>
+            <param name="Force">This option will force the Init function to rebind everything</param>
+            <returns></returns>
+        </member>
+        <member name="T:KSPPreciseManeuver.KACWrapper.KACAPI">
+            <summary>
+            The Type that is an analogue of the real KAC. This lets you access all the API-able properties and Methods of the KAC
+            </summary>
+        </member>
+        <member name="P:KSPPreciseManeuver.KACWrapper.KACAPI.APIReady">
+            <summary>
+            Whether the APIReady flag is set in the real KAC
+            </summary>
+        </member>
+        <member name="P:KSPPreciseManeuver.KACWrapper.KACAPI.Alarms">
+            <summary>
+            The list of Alarms that are currently active in game
+            </summary>
+        </member>
+        <member name="M:KSPPreciseManeuver.KACWrapper.KACAPI.ExtractAlarmList(System.Object)">
+            <summary>
+            This converts the KACAlarmList actual object to a new List for consumption
+            </summary>
+            <param name="actualAlarmList"></param>
+            <returns></returns>
+        </member>
+        <member name="M:KSPPreciseManeuver.KACWrapper.KACAPI.AddHandler(System.Reflection.EventInfo,System.Object,System.Action{System.Object})">
+            <summary>
+            Takes an EventInfo and binds a method to the event firing
+            </summary>
+            <param name="Event">EventInfo of the event we want to attach to</param>
+            <param name="KACObject">actual object the eventinfo is gathered from</param>
+            <param name="Handler">Method that we are going to hook to the event</param>
+        </member>
+        <member name="E:KSPPreciseManeuver.KACWrapper.KACAPI.OnAlarmStateChanged">
+            <summary>
+            Event that fires when the State of an Alarm changes
+            </summary>
+        </member>
+        <member name="T:KSPPreciseManeuver.KACWrapper.KACAPI.AlarmStateChangedHandler">
+            <summary>
+            Structure of the event delegeate
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="T:KSPPreciseManeuver.KACWrapper.KACAPI.AlarmStateChangedEventArgs">
+            <summary>
+            This is the structure that holds the event arguments
+            </summary>
+        </member>
+        <member name="F:KSPPreciseManeuver.KACWrapper.KACAPI.AlarmStateChangedEventArgs.alarm">
+            <summary>
+            Alarm that has had the state change
+            </summary>
+        </member>
+        <member name="F:KSPPreciseManeuver.KACWrapper.KACAPI.AlarmStateChangedEventArgs.eventType">
+            <summary>
+            What the state was before the event
+            </summary>
+        </member>
+        <member name="M:KSPPreciseManeuver.KACWrapper.KACAPI.AlarmStateChanged(System.Object)">
+            <summary>
+            private function that grabs the actual event and fires our wrapped one
+            </summary>
+            <param name="actualEvent">actual event from the KAC</param>
+        </member>
+        <member name="M:KSPPreciseManeuver.KACWrapper.KACAPI.CreateAlarm(KSPPreciseManeuver.KACWrapper.KACAPI.AlarmTypeEnum,System.String,System.Double)">
+            <summary>
+            Create a new Alarm
+            </summary>
+            <param name="AlarmType">What type of alarm are we creating</param>
+            <param name="Name">Name of the Alarm for the display</param>
+            <param name="UT">Universal Time for the alarm</param>
+            <returns>ID of the newly created alarm</returns>
+        </member>
+        <member name="M:KSPPreciseManeuver.KACWrapper.KACAPI.DeleteAlarm(System.String)">
+            <summary>
+            Delete an Alarm
+            </summary>
+            <param name="AlarmID">Unique ID of the alarm</param>
+            <returns>Success of the deletion</returns>
+        </member>
+        <member name="M:KSPPreciseManeuver.KACWrapper.KACAPI.DrawAlarmActionChoice(KSPPreciseManeuver.KACWrapper.KACAPI.AlarmActionEnum@,System.String,System.Int32,System.Int32)">
+            <summary>
+            Delete an Alarm
+            </summary>
+            <param name="AlarmID">Unique ID of the alarm</param>
+            <returns>Success of the deletion</returns>
+        </member>
+        <member name="P:KSPPreciseManeuver.KACWrapper.KACAPI.KACAlarm.VesselID">
+            <summary>
+            Unique Identifier of the Vessel that the alarm is attached to
+            </summary>
+        </member>
+        <member name="P:KSPPreciseManeuver.KACWrapper.KACAPI.KACAlarm.ID">
+            <summary>
+            Unique Identifier of this alarm
+            </summary>
+        </member>
+        <member name="P:KSPPreciseManeuver.KACWrapper.KACAPI.KACAlarm.Name">
+            <summary>
+            Short Text Name for the Alarm
+            </summary>
+        </member>
+        <member name="P:KSPPreciseManeuver.KACWrapper.KACAPI.KACAlarm.Notes">
+            <summary>
+            Longer Text Description for the Alarm
+            </summary>
+        </member>
+        <member name="P:KSPPreciseManeuver.KACWrapper.KACAPI.KACAlarm.XferOriginBodyName">
+            <summary>
+            Name of the origin body for a transfer
+            </summary>
+        </member>
+        <member name="P:KSPPreciseManeuver.KACWrapper.KACAPI.KACAlarm.XferTargetBodyName">
+            <summary>
+            Name of the destination body for a transfer
+            </summary>
+        </member>
+        <member name="P:KSPPreciseManeuver.KACWrapper.KACAPI.KACAlarm.AlarmType">
+            <summary>
+            What type of Alarm is this - affects icon displayed and some calc options
+            </summary>
+        </member>
+        <member name="P:KSPPreciseManeuver.KACWrapper.KACAPI.KACAlarm.AlarmTime">
+            <summary>
+            In game UT value of the alarm
+            </summary>
+        </member>
+        <member name="P:KSPPreciseManeuver.KACWrapper.KACAPI.KACAlarm.AlarmMargin">
+            <summary>
+            In game seconds the alarm will fire before the event it is for
+            </summary>
+        </member>
+        <member name="P:KSPPreciseManeuver.KACWrapper.KACAPI.KACAlarm.AlarmAction">
+            <summary>
+            What should the Alarm Clock do when the alarm fires
+            </summary>
+        </member>
+        <member name="P:KSPPreciseManeuver.KACWrapper.KACAPI.KACAlarm.Remaining">
+            <summary>
+            How much Game time is left before the alarm fires
+            </summary>
+        </member>
+        <member name="P:KSPPreciseManeuver.KACWrapper.KACAPI.KACAlarm.RepeatAlarm">
+            <summary>
+            Whether the alarm will be repeated after it fires
+            </summary>
+        </member>
+        <member name="P:KSPPreciseManeuver.KACWrapper.KACAPI.KACAlarm.RepeatAlarmPeriod">
+            <summary>
+            Value in Seconds after which the alarm will repeat
+            </summary>
+        </member>
+        <member name="M:KSPPreciseManeuver.KACWrapper.LogFormatted_DebugOnly(System.String,System.Object[])">
+            <summary>
+            Some Structured logging to the debug file - ONLY RUNS WHEN DLL COMPILED IN DEBUG MODE
+            </summary>
+            <param name="Message">Text to be printed - can be formatted as per String.format</param>
+            <param name="strParams">Objects to feed into a String.format</param>
+        </member>
+        <member name="M:KSPPreciseManeuver.KACWrapper.LogFormatted(System.String,System.Object[])">
+            <summary>
+            Some Structured logging to the debug file
+            </summary>
+            <param name="Message">Text to be printed - can be formatted as per String.format</param>
+            <param name="strParams">Objects to feed into a String.format</param>
+        </member>
+    </members>
+</doc>
