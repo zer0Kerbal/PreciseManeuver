@@ -19,4 +19,4 @@ using System.Runtime.InteropServices;
 
 // [assembly: AssemblyVersion("2.4.4")]
 // [assembly: AssemblyFileVersion("2.4.4")]
-// [assembly: KSPAssembly("KSPPreciseManeuver", 2, 4)]
+// [assembly: KSPAssembly("PreciseManeuver", 2, 4)]
