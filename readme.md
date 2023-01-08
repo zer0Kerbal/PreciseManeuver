@@ -119,6 +119,7 @@ or [![CKAN][ckan:img]][ckan:url]
 
 ### Supports
 
+* [Transfer Window Planner][twp]
 * Either [^3]
   * [Module Manager /L][mml]
   * [Module Manager][mm]
@@ -236,6 +237,7 @@ Facility (FTF)"
 [mml]: https://github.com/net-lisias-ksp/ModuleManager "Module Manager /L"
 [mm]: https://forum.kerbalspaceprogram.com/index.php?/topic/50533-*/ "Module Manager"
 [twk]: https://forum.kerbalspaceprogram.com/index.php?/topic/179030-*/ "TweakScale"
+[twp]: http://forum.kerbalspaceprogram.com/index.php?/topic/84005-*/ "Transfer Window Planner"
 
 <!-- financial support -->
 [PAYPAL:img]: https://img.shields.io/badge/Buy%20me%20some%20-LFO-BADA55?style=for-the-badge&logo=paypal&labelColor=FFDD00/ "PayPal"
