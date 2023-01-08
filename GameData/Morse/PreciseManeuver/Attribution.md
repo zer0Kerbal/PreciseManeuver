@@ -8,7 +8,7 @@ tags: attributions,thank,page,kerbal,ksp,zer0Kerbal,zedK
 
 <!--
 Attributions.md v1.0.3.0
-PreciseManeuver! (KPM)
+Precise Maneuver (PM)
 created: 01 Feb 2022
 updated: 01 Feb 2022
 -->
