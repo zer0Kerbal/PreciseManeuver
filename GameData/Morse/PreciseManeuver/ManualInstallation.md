@@ -4,13 +4,13 @@ title: Manual Installation (no warranty coverage provided)
 ---
 
 <!-- ManualInstallation.md v1.1.0.0
-PreciseManeuver! (KPM)
+Precise Maneuver (PM)
 created: 01 Oct 2019
 updated: 02 Mar 2022 -->
 
 <!-- based upon work by Lisias -->
 
-# PreciseManeuver! (KPM)
+# Precise Maneuver (PM)
 
 Provides simple craft building capability in flight mode to stock parts for Kerbal Space Program.
 
