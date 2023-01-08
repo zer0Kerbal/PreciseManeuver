@@ -30,11 +30,22 @@ CC BY-ND 4.0 by zer0Kerbal -->
 
 ### Summary 2.4.99.1
 
-* recompile for 1.12.4
-* <PreciseManeuver.dll> v2.4.4.0 --> 2.4.99.126
+* Compile for 1.12.4
+  * .NET 4.7.2
+  * C# 10.0
+  * Unity 2019.4.18f1 LTS
+* <PreciseManeuver.dll> v2.4.4.0 --> 2.4.99.132
 * <PreciseManeuver.Unity.dll> v2.4.4.0 --> 2.4.99.1
 
-* move x into Awake to possibly alleviate log spam.
+* Log Spam
+  * move x into Awake to possibly alleviate log spam.
+  * closes #36 - [Bug 🐞]: UnityException on load
+
+### Status 2.4.99.1
+
+* Issues
+  * closes #38 - Precise Maneuver (PM) 2.4.99.1-prerelease `<Thank you Morse>` edition
+  * closes #39 - 2.4.99.1 Additional Tasks
 
 ---
 
