@@ -11,7 +11,7 @@ PreciseManeuver! (KPM)
 created: 01 Oct 2019
 updated: 02 Mar 2022 -->
 
-# Precise Maneuver (KPM)
+# Precise Maneuver (PM)
 
 Currently is looking for translators. [See details]
 
