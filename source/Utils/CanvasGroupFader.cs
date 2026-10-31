@@ -117,14 +117,19 @@ public class CanvasGroupFader : MonoBehaviour {
   }
 
   private void Fade (float from, float to, float duration, Action callback) {
-    if (fadeCoroutine != null)
+    if (fadeCoroutine != null) {
       StopCoroutine (fadeCoroutine);
+      fadeCoroutine = null;
+    }
 
-    if (from == to)
+    if (from == to) {
+      callback?.Invoke ();
       return;
+    }
 
     if (Math.Abs (from - to) < 0.1) {
       SetState (to);
+      callback?.Invoke ();
     } else {
       fadeCoroutine = FadeCoroutine (from, to, duration, callback);
       StartCoroutine (fadeCoroutine);
